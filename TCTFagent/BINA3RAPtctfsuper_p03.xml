@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oni>
+    <Particle Name="tctfsuper_p03">
+        <Options>
+            <Lifetime>1.5</Lifetime>
+            <DisableDetailLevel>Never</DisableDetailLevel>
+            <Decorative>true</Decorative>
+            <CollideWithWalls>false</CollideWithWalls>
+            <CollideWithChars>false</CollideWithChars>
+            <InitiallyHidden>false</InitiallyHidden>
+            <DrawAsSky>false</DrawAsSky>
+            <DontAttractThroughWalls>false</DontAttractThroughWalls>
+            <ExpireOnCutscene>false</ExpireOnCutscene>
+            <DieOnCutscene>false</DieOnCutscene>
+            <LockPositionToLink>false</LockPositionToLink>
+            <CollisionRadius>0</CollisionRadius>
+            <AIDodgeRadius>0</AIDodgeRadius>
+            <AIAlertRadius>0</AIAlertRadius>
+            <FlyBySoundName />
+        </Options>
+        <Properties>
+            <HasVelocity>true</HasVelocity>
+            <HasOrientation>false</HasOrientation>
+            <HasPositionOffset>false</HasPositionOffset>
+            <HasAttachmentMatrix>true</HasAttachmentMatrix>
+            <HasUnknown>false</HasUnknown>
+            <HasDecalState>false</HasDecalState>
+            <HasTextureStartTick>false</HasTextureStartTick>
+            <HasTextureTick>false</HasTextureTick>
+            <HasDamageOwner>true</HasDamageOwner>
+            <HasContrailData>false</HasContrailData>
+            <HasLensFlareState>false</HasLensFlareState>
+            <HasAttractor>false</HasAttractor>
+            <HasCollisionCache>false</HasCollisionCache>
+        </Properties>
+        <Appearance>
+            <DisplayType>Sprite</DisplayType>
+            <TexGeom>lensflare01</TexGeom>
+            <Invisible>false</Invisible>
+            <IsContrailEmitter>false</IsContrailEmitter>
+            <ScaleToVelocity>false</ScaleToVelocity>
+            <Scale>
+                <Random Min="2.4" Max="2.6" />
+            </Scale>
+            <UseSeparateYScale>false</UseSeparateYScale>
+            <YScale>1</YScale>
+            <Rotation>0</Rotation>
+            <Alpha>alpha</Alpha>
+            <XOffset>0</XOffset>
+            <XShorten>0</XShorten>
+            <UseSpecialTint>false</UseSpecialTint>
+            <Tint>51 204 178</Tint>
+            <FadeOutOnEdge>false</FadeOutOnEdge>
+            <OneSidedEdgeFade>false</OneSidedEdgeFade>
+            <EdgeFadeMin>0</EdgeFadeMin>
+            <EdgeFadeMax>0.5</EdgeFadeMax>
+            <MaxContrailDistance>0</MaxContrailDistance>
+            <LensFlare>false</LensFlare>
+            <LensFlareDistance>0</LensFlareDistance>
+            <LensFlareFadeInFrames>0</LensFlareFadeInFrames>
+            <LensFlareFadeOutFrames>0</LensFlareFadeOutFrames>
+            <DecalFullBrightness>false</DecalFullBrightness>
+            <MaxDecals>100</MaxDecals>
+            <DecalFadeFrames>60</DecalFadeFrames>
+            <DecalWrapAngle>60</DecalWrapAngle>
+        </Appearance>
+        <Attractor>
+            <Target>None</Target>
+            <Selector>Distance</Selector>
+            <Class />
+            <MaxDistance>300</MaxDistance>
+            <MaxAngle>30</MaxAngle>
+            <AngleSelectMin>3</AngleSelectMin>
+            <AngleSelectMax>20</AngleSelectMax>
+            <AngleSelectWeight>3</AngleSelectWeight>
+        </Attractor>
+        <Variables>
+            <Float Name="alpha">0</Float>
+            <Float Name="maxalpha">1</Float>
+        </Variables>
+        <Emitters />
+        <Events>
+            <Update>
+                <SuperParticle>
+                    <Variable>maxalpha</Variable>
+                    <BaseValue>0.2</BaseValue>
+                    <DeltaValue>0.8</DeltaValue>
+                    <MinValue>0</MinValue>
+                    <MaxValue>1</MaxValue>
+                </SuperParticle>
+                <MoveLine />
+                <MoveResistance>
+                    <Resistance>20</Resistance>
+                    <MinimumVelocity>0</MinimumVelocity>
+                </MoveResistance>
+                <AnimateToValue>
+                    <Target>alpha</Target>
+                    <Rate>1</Rate>
+                    <Value>maxalpha</Value>
+                </AnimateToValue>
+            </Update>
+            <Lifetime>
+                <FadeOut>
+                    <TimeToDie>1</TimeToDie>
+                </FadeOut>
+            </Lifetime>
+        </Events>
+    </Particle>
+</Oni>

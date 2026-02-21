@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oni>
+    <Texture>
+        <Flags>HasMipMaps</Flags>
+        <Format>RGBA</Format>
+        <EnvMap>TXMPstrikerarmor</EnvMap>
+        <Image>TXMPIteration001%2FSTCcalfR.tga</Image>
+    </Texture>
+</Oni>

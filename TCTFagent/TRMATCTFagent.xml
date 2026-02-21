@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oni>
+    <TRMA id="0">
+        <Textures>
+            <Link>TXMPIteration001/STCpelvis</Link>
+            <Link>TXMPIteration001/STCthighR</Link>
+            <Link>TXMPIteration001/STCcalfR</Link>
+            <Link>TXMPIteration001/STCfootR</Link>
+            <Link>TXMPIteration001/STCthighR</Link>
+            <Link>TXMPIteration001/STCcalfR</Link>
+            <Link>TXMPIteration001/STCfootR</Link>
+            <Link>TXMPIteration001/STCmid</Link>
+            <Link>TXMPIteration001/STCchest</Link>
+            <Link>TXMPIteration001/STCneck</Link>
+            <Link>TXMPIteration001/STChead</Link>
+            <Link>TXMPIteration001/STCshoulderL</Link>
+            <Link>TXMPIteration001/STCbicepR</Link>
+            <Link>TXMPIteration001/STCwristR</Link>
+            <Link>TXMPIteration001/STCfist</Link>
+            <Link>TXMPIteration001/STCshoulderR</Link>
+            <Link>TXMPIteration001/STCbicepR</Link>
+            <Link>TXMPIteration001/STCwristR</Link>
+            <Link>TXMPIteration001/STCfist</Link>
+        </Textures>
+    </TRMA>
+</Oni>

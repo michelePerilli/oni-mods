@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oni>
+    <Particle Name="tctfsuper_e02">
+        <Options>
+            <Lifetime>0</Lifetime>
+            <DisableDetailLevel>Medium</DisableDetailLevel>
+            <Decorative>true</Decorative>
+            <CollideWithWalls>false</CollideWithWalls>
+            <CollideWithChars>false</CollideWithChars>
+            <InitiallyHidden>true</InitiallyHidden>
+            <DrawAsSky>false</DrawAsSky>
+            <DontAttractThroughWalls>false</DontAttractThroughWalls>
+            <ExpireOnCutscene>false</ExpireOnCutscene>
+            <DieOnCutscene>false</DieOnCutscene>
+            <LockPositionToLink>false</LockPositionToLink>
+            <CollisionRadius>0</CollisionRadius>
+            <AIDodgeRadius>0</AIDodgeRadius>
+            <AIAlertRadius>0</AIAlertRadius>
+            <FlyBySoundName />
+        </Options>
+        <Properties>
+            <HasVelocity>false</HasVelocity>
+            <HasOrientation>true</HasOrientation>
+            <HasPositionOffset>false</HasPositionOffset>
+            <HasAttachmentMatrix>true</HasAttachmentMatrix>
+            <HasUnknown>false</HasUnknown>
+            <HasDecalState>false</HasDecalState>
+            <HasTextureStartTick>false</HasTextureStartTick>
+            <HasTextureTick>false</HasTextureTick>
+            <HasDamageOwner>false</HasDamageOwner>
+            <HasContrailData>false</HasContrailData>
+            <HasLensFlareState>false</HasLensFlareState>
+            <HasAttractor>false</HasAttractor>
+            <HasCollisionCache>false</HasCollisionCache>
+        </Properties>
+        <Appearance>
+            <DisplayType>Sprite</DisplayType>
+            <TexGeom>lensflare01</TexGeom>
+            <Invisible>false</Invisible>
+            <IsContrailEmitter>false</IsContrailEmitter>
+            <ScaleToVelocity>false</ScaleToVelocity>
+            <Scale>10</Scale>
+            <UseSeparateYScale>false</UseSeparateYScale>
+            <YScale>1</YScale>
+            <Rotation>0</Rotation>
+            <Alpha>
+                <Random Min="0.6" Max="0.8" />
+            </Alpha>
+            <XOffset>0</XOffset>
+            <XShorten>0</XShorten>
+            <UseSpecialTint>false</UseSpecialTint>
+            <Tint>38 64 161</Tint>
+            <FadeOutOnEdge>false</FadeOutOnEdge>
+            <OneSidedEdgeFade>false</OneSidedEdgeFade>
+            <EdgeFadeMin>0</EdgeFadeMin>
+            <EdgeFadeMax>0.5</EdgeFadeMax>
+            <MaxContrailDistance>0</MaxContrailDistance>
+            <LensFlare>false</LensFlare>
+            <LensFlareDistance>0</LensFlareDistance>
+            <LensFlareFadeInFrames>0</LensFlareFadeInFrames>
+            <LensFlareFadeOutFrames>0</LensFlareFadeOutFrames>
+            <DecalFullBrightness>false</DecalFullBrightness>
+            <MaxDecals>100</MaxDecals>
+            <DecalFadeFrames>60</DecalFadeFrames>
+            <DecalWrapAngle>60</DecalWrapAngle>
+        </Appearance>
+        <Attractor>
+            <Target>None</Target>
+            <Selector>Distance</Selector>
+            <Class />
+            <MaxDistance>150</MaxDistance>
+            <MaxAngle>30</MaxAngle>
+            <AngleSelectMin>3</AngleSelectMin>
+            <AngleSelectMax>20</AngleSelectMax>
+            <AngleSelectWeight>3</AngleSelectWeight>
+        </Attractor>
+        <Variables />
+        <Emitters>
+            <Emitter>
+                <Class>super_p02</Class>
+                <Flags />
+                <TurnOffTreshold>0</TurnOffTreshold>
+                <Probability>1</Probability>
+                <Copies>1</Copies>
+                <LinkTo>this</LinkTo>
+                <Rate>
+                    <Continous>
+                        <Interval>0.25</Interval>
+                    </Continous>
+                </Rate>
+                <Position>
+                    <Sphere>
+                        <InnerRadius>25</InnerRadius>
+                        <OuterRadius>25</OuterRadius>
+                    </Sphere>
+                </Position>
+                <Direction>
+                    <Random />
+                </Direction>
+                <Speed>
+                    <Uniform>
+                        <Speed>10</Speed>
+                    </Uniform>
+                </Speed>
+                <Orientation>LocalPosY</Orientation>
+                <OrientationUp>LocalPosZ</OrientationUp>
+            </Emitter>
+        </Emitters>
+        <Events>
+            <Start>
+                <EmitActivate>
+                    <Emitter>0</Emitter>
+                </EmitActivate>
+                <Show />
+            </Start>
+            <Stop>
+                <EmitDeactivate>
+                    <Emitter>0</Emitter>
+                </EmitDeactivate>
+                <Hide />
+            </Stop>
+        </Events>
+    </Particle>
+</Oni>
