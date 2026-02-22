@@ -387,6 +387,16 @@
                 <Type>tctfsuper_e01</Type>
                 <BodyPart>Chest</BodyPart>
             </ONCPParticle>
+            <ONCPParticle>
+                <Name>barabwave</Name>
+                <Type>barwave_e01</Type>
+                <BodyPart>None</BodyPart>
+            </ONCPParticle>
+            <ONCPParticle>
+                <Name>murowave</Name>
+                <Type>murowave_e01</Type>
+                <BodyPart>None</BodyPart>
+            </ONCPParticle>
         </Particles>
     </ONCP>
     <ONIA id="4">
