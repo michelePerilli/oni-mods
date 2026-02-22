@@ -9,21 +9,21 @@
 
 
 #.tools\\OniSplit.exe -create:txmp 'TCTFagent\oni' -genmipmaps -format:dxt1 'TCTFagent\images\Iteration001%2FTC*'
+
+
+ONI_DIR="D:/Program Files (x86)/Oni/AE"
+ONI_GDF="$ONI_DIR/GameDataFolder"
+ONISPLIT=".tools/OniSplit.exe"
+DAT_FILE_NAME="level0_alpha.dat"
+
 rm TCTFagent/.oni/*
 
-.tools\\OniSplit.exe -create 'TCTFagent\.oni' 'TCTFagent\*'
-.tools\\OniSplit.exe -create 'TCTFagent\.oni' 'TCTFagent\images\*.xml'
-.tools\\OniSplit.exe -create 'TCTFagent\.oni' 'TCTFagent\animations\*.xml'
-.tools\\OniSplit.exe -create 'TCTFagent\.oni' 'TCTFagent\particles\*.xml'
+$ONISPLIT -create 'TCTFagent\.oni' 'TCTFagent\*'
+$ONISPLIT -create 'TCTFagent\.oni' 'TCTFagent\images\*.xml'
+$ONISPLIT -create 'TCTFagent\.oni' 'TCTFagent\animations\*.xml'
+$ONISPLIT -create 'TCTFagent\.oni' 'TCTFagent\particles\*.xml'
 
-.tools\\OniSplit.exe -import:nosep 'TCTFagent\.oni' 'level0_alpha.dat'
+$ONISPLIT -import:nosep 'TCTFagent\.oni' "$ONI_GDF/$DAT_FILE_NAME"
 
-cp level0_alpha.* 'D:\Program Files (x86)\Oni\AE\GameDataFolder'
-rm level0_alpha.*
-
-# Definiamo il percorso (usa gli slash in avanti per Bash)
-ONI_DIR="D:/Program Files (x86)/Oni/AE"
-
-# Eseguiamo il salto nella cartella e il lancio
 (cd "$ONI_DIR" && ./Oni.exe) &
 
