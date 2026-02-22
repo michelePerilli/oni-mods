@@ -649,9 +649,9 @@
                 <Knockback>4</Knockback>
                 <HitPoints>10</HitPoints>
                 <HitType>KnockdownBody</HitType>
-                <HitLength>5</HitLength>
-                <StunLength>8</StunLength>
-                <StaggerLength>0</StaggerLength>
+                <HitLength>15</HitLength>
+                <StunLength>25</StunLength>
+                <StaggerLength>25</StaggerLength>
                 <Extents>
                     <Extent>
                         <Angle>358.725525</Angle>
