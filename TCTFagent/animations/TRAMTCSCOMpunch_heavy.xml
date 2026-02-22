@@ -49,13 +49,13 @@
         <Particles>
             <Particle>
                 <Start>0</Start>
-                <End>45</End>
+                <End>48</End>
                 <Bone>LeftFist</Bone>
                 <Name>contrail</Name>
             </Particle>
             <Particle>
                 <Start>0</Start>
-                <End>45</End>
+                <End>48</End>
                 <Bone>RightFist</Bone>
                 <Name>contrail</Name>
             </Particle>
