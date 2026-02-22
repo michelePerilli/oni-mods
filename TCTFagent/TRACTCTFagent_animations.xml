@@ -77,6 +77,18 @@
             </TRACAnimation>
             <TRACAnimation>
                 <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_p_k_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_p_k_k_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_p_k_k_k_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
                 <Animation>TRAMTCSCOMcomb_p_k_k</Animation>
             </TRACAnimation>
             <TRACAnimation>
