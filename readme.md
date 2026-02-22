@@ -21,6 +21,7 @@
 | [TCSCOMcomb_p_p](TCTFagent/animations/TRAMTCSCOMcomb_p_p.xml)         | STRCOMcomb_p_p    | 🟢 |
 | [TCSCOMcomb_p_p_k](TCTFagent/animations/TRAMTCSCOMcomb_p_p_k.xml)     | TCTCOMcomb_k_k_k  | 🟢 |
 | [TCSCOMcomb_p_p_p](TCTFagent/animations/TRAMTCSCOMcomb_p_p_p.xml)     | TCTCOMcomb_p_p_p  | 🟢 |
+| [TCSCOMcomb_p_p_p_p](TCTFagent/animations/TRAMTCSCOMcomb_p_p_p_p.xml) | COMCOMpunch_heavy | 🟢 |
 | [TCSCOMkick_fw](TCTFagent/animations/TRAMTCSCOMkick_fw.xml)           | TCTCOMkick_fw     | 🟢 |
 | [TCSCOMkick_heavy](TCTFagent/animations/TRAMTCSCOMkick_heavy.xml)     | MURCOMkick_heavy  | 🟢 |
 | [TCSCOMlt_fw_kick](TCTFagent/animations/TRAMTCSCOMlt_fw_kick.xml)     |                   | 🔴 |
