@@ -16,7 +16,7 @@
                 </Shortcut>
             </Shortcuts>
         </Lookup>
-        <Flags>Invulnerable Attack Atomic DontAim</Flags>
+        <Flags>Invulnerable Attack Atomic DontAim DisableShield</Flags>
         <Atomic>
             <Start>0</Start>
             <End>65535</End>
@@ -49,19 +49,19 @@
         <Particles>
             <Particle>
                 <Start>0</Start>
-                <End>45</End>
+                <End>29</End>
                 <Bone>LeftFist</Bone>
                 <Name>contrail</Name>
             </Particle>
             <Particle>
                 <Start>0</Start>
-                <End>45</End>
+                <End>29</End>
                 <Bone>RightFist</Bone>
                 <Name>contrail</Name>
             </Particle>
             <Particle>
                 <Start>0</Start>
-                <End>50</End>
+                <End>29</End>
                 <Bone>LeftFist</Bone>
                 <Name>glow</Name>
             </Particle>

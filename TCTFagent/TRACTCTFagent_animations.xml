@@ -107,6 +107,10 @@
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMcomb_k_k_k</Animation>
             </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k_k_kfw</Animation>
+            </TRACAnimation>
 
 
             <!--END BASIC COMBOS-->

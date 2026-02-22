@@ -5,12 +5,12 @@
             <Type>KPK</Type>
             <AimingType>KPK</AimingType>
             <FromState>Standing</FromState>
-            <ToState>Standing</ToState>
+            <ToState>LieBack</ToState>
             <Varient />
             <FirstLevel>0</FirstLevel>
             <Shortcuts/>
         </Lookup>
-        <Flags>Atomic DoAim</Flags>
+        <Flags>Invulnerable Attack Atomic DontAim</Flags>
         <Atomic>
             <Start>0</Start>
             <End>65535</End>
@@ -35,573 +35,689 @@
             <End>0</End>
             <Max>65535</Max>
         </Interpolation>
-        <FinalRotation>0</FinalRotation>
+        <FinalRotation>179.999985</FinalRotation>
         <Direction>Forward</Direction>
         <Vocalization>65535</Vocalization>
         <ActionFrame>65535</ActionFrame>
         <Impact>swtflash1</Impact>
         <Particles>
             <Particle>
-                <Start>0</Start>
-                <End>33</End>
-                <Bone>RightFoot</Bone>
+                <Start>8</Start>
+                <End>49</End>
+                <Bone>RightShoulder</Bone>
                 <Name>contrail</Name>
             </Particle>
             <Particle>
-                <Start>0</Start>
-                <End>33</End>
-                <Bone>LeftFoot</Bone>
-                <Name>contrail</Name>
-            </Particle>
-            <Particle>
-                <Start>0</Start>
-                <End>33</End>
-                <Bone>RightFoot</Bone>
-                <Name>glow</Name>
-            </Particle>
-            <Particle>
-                <Start>0</Start>
-                <End>33</End>
-                <Bone>LeftFoot</Bone>
+                <Start>8</Start>
+                <End>49</End>
+                <Bone>RightShoulder</Bone>
                 <Name>glow</Name>
             </Particle>
         </Particles>
-        <MotionBlur />
+        <MotionBlur>
+            <MotionBlur>
+                <Bones>Mid Chest RightWrist RightFist</Bones>
+                <Start>1</Start>
+                <End>49</End>
+                <Lifetime>4</Lifetime>
+                <Alpha>127</Alpha>
+                <Interval>1</Interval>
+            </MotionBlur>
+        </MotionBlur>
         <Footsteps>
             <Footstep>
-                <Frame>34</Frame>
+                <Frame>81</Frame>
                 <Type>Left</Type>
             </Footstep>
             <Footstep>
-                <Frame>36</Frame>
+                <Frame>83</Frame>
                 <Type>Right</Type>
             </Footstep>
         </Footsteps>
         <Sounds />
         <Heights>
-            <Height>9.216228</Height>
-            <Height>9.84582</Height>
-            <Height>10.52275</Height>
-            <Height>11.2344751</Height>
-            <Height>11.9684639</Height>
-            <Height>12.7121763</Height>
-            <Height>13.4530754</Height>
-            <Height>14.17863</Height>
-            <Height>14.876297</Height>
-            <Height>15.5335407</Height>
-            <Height>16.137825</Height>
-            <Height>16.74361</Height>
-            <Height>17.38475</Height>
-            <Height>18.01781</Height>
-            <Height>18.59935</Height>
-            <Height>19.085928</Height>
-            <Height>19.434103</Height>
-            <Height>19.60044</Height>
-            <Height>19.5414925</Height>
-            <Height>19.2636452</Height>
-            <Height>18.8212814</Height>
-            <Height>18.2429752</Height>
-            <Height>17.5573025</Height>
-            <Height>16.7928352</Height>
-            <Height>15.9781456</Height>
-            <Height>15.1418095</Height>
-            <Height>14.3123941</Height>
-            <Height>13.5184841</Height>
-            <Height>12.7886448</Height>
-            <Height>12.0727949</Height>
-            <Height>11.3184195</Height>
-            <Height>10.5504332</Height>
-            <Height>9.793751</Height>
-            <Height>9.073302</Height>
-            <Height>8.413999</Height>
-            <Height>7.840762</Height>
-            <Height>7.406874</Height>
-            <Height>7.139541</Height>
-            <Height>7.02457</Height>
-            <Height>7.047767</Height>
-            <Height>7.244647</Height>
-            <Height>7.596584</Height>
-            <Height>8.008175</Height>
-            <Height>8.384017</Height>
-            <Height>8.628704</Height>
-            <Height>8.697787</Height>
-            <Height>8.654875</Height>
-            <Height>8.566634</Height>
-            <Height>8.499738</Height>
-            <Height>8.520852</Height>
-            <Height>8.665375</Height>
-            <Height>8.888855</Height>
-            <Height>9.138208</Height>
-            <Height>9.360345</Height>
-            <Height>9.50218</Height>
-            <Height>9.482209</Height>
-            <Height>9.337485</Height>
+            <Height>9.12794</Height>
+            <Height>8.610615</Height>
+            <Height>7.959814</Height>
+            <Height>7.309015</Height>
+            <Height>6.791689</Height>
+            <Height>6.541311</Height>
+            <Height>6.691356</Height>
+            <Height>7.129885</Height>
+            <Height>7.649188</Height>
+            <Height>8.239083</Height>
+            <Height>8.889385</Height>
+            <Height>9.589914</Height>
+            <Height>10.3304815</Height>
+            <Height>11.1009121</Height>
+            <Height>11.891016</Height>
+            <Height>12.6906118</Height>
+            <Height>13.4895163</Height>
+            <Height>14.2775488</Height>
+            <Height>15.0445213</Height>
+            <Height>15.7802553</Height>
+            <Height>16.4745636</Height>
+            <Height>17.1172676</Height>
+            <Height>17.6981812</Height>
+            <Height>18.207119</Height>
+            <Height>18.6157417</Height>
+            <Height>18.9057713</Height>
+            <Height>19.0821133</Height>
+            <Height>19.1496754</Height>
+            <Height>19.113369</Height>
+            <Height>18.9780979</Height>
+            <Height>18.7487755</Height>
+            <Height>18.4303074</Height>
+            <Height>18.0296516</Height>
+            <Height>17.5540943</Height>
+            <Height>17.0090427</Height>
+            <Height>16.3998985</Height>
+            <Height>15.7320728</Height>
+            <Height>15.0109653</Height>
+            <Height>14.2419825</Height>
+            <Height>13.4305325</Height>
+            <Height>12.5820141</Height>
+            <Height>11.7018375</Height>
+            <Height>10.63251</Height>
+            <Height>9.299565</Height>
+            <Height>7.832953</Height>
+            <Height>6.362621</Height>
+            <Height>5.018528</Height>
+            <Height>3.930618</Height>
+            <Height>3.228844</Height>
+            <Height>2.978176</Height>
+            <Height>3.084763</Height>
+            <Height>3.440313</Height>
+            <Height>3.93654</Height>
+            <Height>4.46515</Height>
+            <Height>4.917855</Height>
+            <Height>5.186367</Height>
+            <Height>5.288014</Height>
+            <Height>5.31198</Height>
+            <Height>5.257751</Height>
+            <Height>5.124814</Height>
+            <Height>4.912655</Height>
+            <Height>4.606134</Height>
+            <Height>4.212837</Height>
+            <Height>3.766343</Height>
+            <Height>3.300229</Height>
+            <Height>2.848074</Height>
+            <Height>2.443456</Height>
+            <Height>2.119954</Height>
+            <Height>1.911145</Height>
+            <Height>1.783499</Height>
+            <Height>1.679569</Height>
+            <Height>1.597062</Height>
+            <Height>1.53368</Height>
+            <Height>1.48713</Height>
+            <Height>1.455116</Height>
+            <Height>1.435343</Height>
+            <Height>1.425515</Height>
+            <Height>1.423338</Height>
+            <Height>1.426516</Height>
+            <Height>1.432755</Height>
+            <Height>1.439758</Height>
+            <Height>1.445232</Height>
+            <Height>1.44688</Height>
+            <Height>1.442408</Height>
+            <Height>1.42952</Height>
         </Heights>
         <Velocities>
-            <Velocity>0.00154300034 0.59088707</Velocity>
-            <Velocity>0.00139899924 0.5759611</Velocity>
-            <Velocity>0.00107800215 0.5677099</Velocity>
-            <Velocity>0.0006089993 0.565560341</Velocity>
-            <Velocity>3.69995832E-05 0.570933342</Velocity>
-            <Velocity>-0.0005900003 0.5835762</Velocity>
-            <Velocity>-0.00122300163 0.603889465</Velocity>
-            <Velocity>-0.00183999911 0.632576</Velocity>
-            <Velocity>-0.002439998 0.6715355</Velocity>
-            <Velocity>-0.00306000188 0.723775864</Velocity>
-            <Velocity>-0.004078999 0.778120041</Velocity>
-            <Velocity>-0.005481001 0.8308487</Velocity>
-            <Velocity>-0.006875001 0.892528534</Velocity>
-            <Velocity>-0.008152001 0.955036163</Velocity>
-            <Velocity>-0.009185001 1.01115227</Velocity>
-            <Velocity>-0.009840995 1.05094337</Velocity>
-            <Velocity>-0.0100179985 1.0682373</Velocity>
-            <Velocity>-0.009649001 1.05769348</Velocity>
-            <Velocity>-0.008725002 1.01926613</Velocity>
-            <Velocity>-0.00727599859 0.955524445</Velocity>
-            <Velocity>-0.005373001 0.872184753</Velocity>
-            <Velocity>-0.00308999419 0.777086258</Velocity>
-            <Velocity>-0.000407010317 0.674167633</Velocity>
-            <Velocity>0.00287801027 0.552310944</Velocity>
-            <Velocity>0.009091996 0.409347534</Velocity>
-            <Velocity>0.0176559985 0.271247864</Velocity>
-            <Velocity>0.0247519985 0.201019287</Velocity>
-            <Velocity>0.028372 0.265697479</Velocity>
-            <Velocity>0.0273290016 0.4618187</Velocity>
-            <Velocity>0.0223429985 0.712039948</Velocity>
-            <Velocity>0.015563 0.8986778</Velocity>
-            <Velocity>0.009056001 0.9652405</Velocity>
-            <Velocity>0.002861999 0.93019104</Velocity>
-            <Velocity>-0.00288099982 0.8549919</Velocity>
-            <Velocity>-0.007984 0.7463722</Velocity>
-            <Velocity>-0.008292 0.63256073</Velocity>
-            <Velocity>-0.002391 0.440048218</Velocity>
-            <Velocity>0.013234 0.2827072</Velocity>
-            <Velocity>0.0304690022 0.307460785</Velocity>
-            <Velocity>0.0303299949 0.502269745</Velocity>
-            <Velocity>0.0218230039 0.6709938</Velocity>
-            <Velocity>0.021254003 0.7199707</Velocity>
-            <Velocity>0.0177279934 0.7549324</Velocity>
-            <Velocity>0.01198101 0.7805481</Velocity>
-            <Velocity>0.00528098643 0.7951393</Velocity>
-            <Velocity>-0.0009659976 0.800075531</Velocity>
-            <Velocity>-0.005633995 0.794448853</Velocity>
-            <Velocity>-0.008319005 0.7774887</Velocity>
-            <Velocity>-0.0115289986 0.7668228</Velocity>
-            <Velocity>-0.015657 0.7681656</Velocity>
-            <Velocity>-0.0188159943 0.773082733</Velocity>
-            <Velocity>-0.0210430026 0.7764511</Velocity>
-            <Velocity>-0.022303 0.7845726</Velocity>
-            <Velocity>-0.022541 0.78925705</Velocity>
-            <Velocity>-0.0217190012 0.7998276</Velocity>
-            <Velocity>-0.019859001 0.804676056</Velocity>
-            <Velocity>-0.017045 0.81659317</Velocity>
+            <Velocity>-0.0157909989 -0.0221788883</Velocity>
+            <Velocity>-0.0268400013 0.0222699642</Velocity>
+            <Velocity>-0.072107 0.0735080242</Velocity>
+            <Velocity>-0.128962 0.156640053</Velocity>
+            <Velocity>-0.163989007 0.2759719</Velocity>
+            <Velocity>-0.157065988 0.4121921</Velocity>
+            <Velocity>-0.140255988 0.5372319</Velocity>
+            <Velocity>-0.129236042 0.639104962</Velocity>
+            <Velocity>-0.104622006 0.722147</Velocity>
+            <Velocity>-0.07179499 0.782022059</Velocity>
+            <Velocity>-0.0365179777 0.81547</Velocity>
+            <Velocity>-0.00443899632 0.822126</Velocity>
+            <Velocity>0.01986301 0.804806</Velocity>
+            <Velocity>0.03365898 0.76848197</Velocity>
+            <Velocity>0.0361549854 0.718412161</Velocity>
+            <Velocity>0.0329720378 0.675339937</Velocity>
+            <Velocity>0.0305569768 0.6446371</Velocity>
+            <Velocity>0.02760297 0.61101675</Velocity>
+            <Velocity>0.024872005 0.5746341</Velocity>
+            <Velocity>0.0228620172 0.535271168</Velocity>
+            <Velocity>0.0166710019 0.513686657</Velocity>
+            <Velocity>0.00672197342 0.51714325</Velocity>
+            <Velocity>-0.001200974 0.5193815</Velocity>
+            <Velocity>-0.006793976 0.5244484</Velocity>
+            <Velocity>-0.00997901 0.528327942</Velocity>
+            <Velocity>-0.0108129978 0.5342159</Velocity>
+            <Velocity>-0.00940001 0.539339066</Velocity>
+            <Velocity>-0.008284032 0.54564476</Velocity>
+            <Velocity>-0.007731974 0.5505085</Velocity>
+            <Velocity>-0.005289018 0.554682732</Velocity>
+            <Velocity>-0.00387597084 0.5560856</Velocity>
+            <Velocity>-0.00465703 0.5542698</Velocity>
+            <Velocity>-0.00516098738 0.5514002</Velocity>
+            <Velocity>-0.005393982 0.5463896</Velocity>
+            <Velocity>-0.005358994 0.5410576</Velocity>
+            <Velocity>-0.005066991 0.533196449</Velocity>
+            <Velocity>-0.00452899933 0.5257244</Velocity>
+            <Velocity>-0.003755033 0.515270233</Velocity>
+            <Velocity>-0.002759993 0.505876541</Velocity>
+            <Velocity>-0.00154900551 0.4929943</Velocity>
+            <Velocity>-0.000131011009 0.467285156</Velocity>
+            <Velocity>-0.00354701281 0.43287468</Velocity>
+            <Velocity>-0.008245945 0.4067192</Velocity>
+            <Velocity>-0.007396996 0.3877964</Velocity>
+            <Velocity>-0.00123500824 0.3760147</Velocity>
+            <Velocity>0.009716988 0.3713169</Velocity>
+            <Velocity>0.0246800184 0.373559952</Velocity>
+            <Velocity>0.0425989628 0.3824482</Velocity>
+            <Velocity>0.101390004 0.355110168</Velocity>
+            <Velocity>0.11125201 0.295194626</Velocity>
+            <Velocity>0.007160008 0.372694016</Velocity>
+            <Velocity>-0.0955840349 0.509309769</Velocity>
+            <Velocity>-0.08030999 0.5325413</Velocity>
+            <Velocity>0.001371026 0.369375229</Velocity>
+            <Velocity>0.04990399 0.217197418</Velocity>
+            <Velocity>0.08384502 0.218729019</Velocity>
+            <Velocity>0.09992695 0.21398735</Velocity>
+            <Velocity>0.09790704 0.200634</Velocity>
+            <Velocity>0.08022398 0.176761627</Velocity>
+            <Velocity>0.04960701 0.142324448</Velocity>
+            <Velocity>0.02157101 0.111665726</Velocity>
+            <Velocity>0.00680997968 0.09403801</Velocity>
+            <Velocity>-0.00533798337 0.0799694061</Velocity>
+            <Velocity>-0.0148000121 0.06970978</Velocity>
+            <Velocity>-0.02094099 0.06295395</Velocity>
+            <Velocity>-0.0229200125 0.05927658</Velocity>
+            <Velocity>-0.01997599 0.0582084656</Velocity>
+            <Velocity>-0.0119369924 0.05939865</Velocity>
+            <Velocity>-0.00530400872 0.05209732</Velocity>
+            <Velocity>-0.00413098931 0.04552269</Velocity>
+            <Velocity>-0.00329899788 0.0397834778</Velocity>
+            <Velocity>-0.002526015 0.03484726</Velocity>
+            <Velocity>-0.00153598189 0.0305767059</Velocity>
+            <Velocity>-9.801984E-05 0.0265407562</Velocity>
+            <Velocity>0.001947999 0.0231666565</Velocity>
+            <Velocity>0.0046660006 0.0201797485</Velocity>
+            <Velocity>0.008001 0.017791748</Velocity>
+            <Velocity>0.012706995 0.015996933</Velocity>
+            <Velocity>0.017835021 0.0143699646</Velocity>
+            <Velocity>0.0217839777 0.0127124786</Velocity>
+            <Velocity>0.02444601 0.0108070374</Velocity>
+            <Velocity>0.02591899 0.009168625</Velocity>
+            <Velocity>0.0264450163 0.00739860535</Velocity>
+            <Velocity>0.0263430029 0.005645752</Velocity>
+            <Velocity>0.025913 0.003982544</Velocity>
         </Velocities>
         <Rotations>
             <Bone>
-                <EKey>6 -57.20119 87.71618 157.233231</EKey>
-                <EKey>2 -53.73495 87.34814 159.485458</EKey>
-                <EKey>2 -50.66972 87.238266 161.869537</EKey>
-                <EKey>2 -42.0618 87.0789642 164.4184</EKey>
-                <EKey>3 -28.41657 86.87572 167.7638</EKey>
-                <EKey>4 -3.33989477 86.65598 174.9929</EKey>
-                <EKey>4 36.5575638 86.7273941 -173.910736</EKey>
-                <EKey>4 83.95331 87.26025 -167.214462</EKey>
-                <EKey>3 156.628983 87.8864746 -176.66835</EKey>
-                <EKey>2 -142.181732 87.7821045 169.439224</EKey>
-                <EKey>2 -111.57885 87.551384 165.951019</EKey>
-                <EKey>2 -89.33669 87.35912 166.253143</EKey>
-                <EKey>2 -73.477684 87.26025 168.32959</EKey>
-                <EKey>3 -63.7161827 87.24925 170.482941</EKey>
-                <EKey>5 -58.6953545 87.3261642 172.3067</EKey>
-                <EKey>10 -58.2778664 87.50744 174.410614</EKey>
-                <EKey>1 -67.935 87.8370361 178.865646</EKey>
+                <EKey>4 14.2439919 65.1609039 87.52941</EKey>
+                <EKey>1 -172.95491 64.1886 -85.79904</EKey>
+                <EKey>1 -171.0927 54.0315857 -87.34814</EKey>
+                <EKey>4 -169.104141 46.80247 -88.49622</EKey>
+                <EKey>5 -160.26001 28.6802464 -91.24284</EKey>
+                <EKey>6 -148.828568 14.0407419 -92.07782</EKey>
+                <EKey>4 -136.781876 2.82352948 -90.9681854</EKey>
+                <EKey>8 -130.601974 1.92813 -91.089035</EKey>
+                <EKey>9 -120.269173 3.66399622 -92.5008</EKey>
+                <EKey>4 -111.8645 3.52117181 -93.01167</EKey>
+                <EKey>2 -112.012817 5.44380856 -93.01167</EKey>
+                <EKey>1 -112.452278 3.29594874 -92.978714</EKey>
+                <EKey>3 -112.726936 -0.3076219 -92.93477</EKey>
+                <EKey>2 -113.951935 -18.21561 -93.06111</EKey>
+                <EKey>8 -114.045319 -24.5328445 -93.58846</EKey>
+                <EKey>5 -112.930191 -35.95331 -96.0274658</EKey>
+                <EKey>4 -112.913712 -45.4401474 -98.29618</EKey>
+                <EKey>6 -115.989929 -60.8157463 -102.888535</EKey>
+                <EKey>6 -177.184708 -84.22247 -166.258636</EKey>
+                <EKey>1 97.6369858 -74.87297 106.261391</EKey>
+                <EKey>1 94.97276 -72.68116 103.196152</EKey>
             </Bone>
             <Bone>
-                <EKey>5 179.766541 1.90066373 -124.345161</EKey>
-                <EKey>6 -179.953308 2.2522316 -109.941864</EKey>
-                <EKey>2 -179.57428 2.768597 -95.75281</EKey>
-                <EKey>2 -179.436935 2.8894484 -86.8867</EKey>
-                <EKey>1 -179.28862 3.02128625 -76.46601</EKey>
-                <EKey>1 -179.239182 3.09269857 -73.1371</EKey>
-                <EKey>1 -179.206223 3.17509723 -72.3790359</EKey>
-                <EKey>2 -179.195236 3.25749588 -75.1750946</EKey>
-                <EKey>3 -179.189743 3.43877316 -88.4358</EKey>
-                <EKey>5 -179.123825 3.702449 -117.648888</EKey>
-                <EKey>2 -178.73381 3.922179 -171.999084</EKey>
-                <EKey>1 -178.536057 3.89471269 171.021286</EKey>
-                <EKey>1 -178.437164 3.878233 173.092239</EKey>
-                <EKey>1 -178.3273 3.966125 -175.113754</EKey>
-                <EKey>1 -178.2504 4.427558 -152.031128</EKey>
-                <EKey>1 -178.305328 4.77912569 -135.2163</EKey>
-                <EKey>1 -178.393219 5.1361866 -120.439461</EKey>
-                <EKey>1 -178.475616 5.37239647 -109.782562</EKey>
-                <EKey>1 -178.563522 5.59212637 -102.894028</EKey>
-                <EKey>1 -178.52507 5.647059 -98.79607</EKey>
-                <EKey>1 -178.354767 5.52071428 -98.49943</EKey>
-                <EKey>2 -178.15152 5.28450441 -103.190659</EKey>
-                <EKey>2 -177.865875 4.82307148 -121.252464</EKey>
-                <EKey>2 -177.635162 4.54840946 -140.1767</EKey>
-                <EKey>1 -177.4319 4.345159 -155.524841</EKey>
-                <EKey>1 -177.420914 4.026551 -161.358658</EKey>
-                <EKey>2 -177.415421 3.75188828 -163.012131</EKey>
-                <EKey>2 -177.20668 3.746395 -154.0856</EKey>
-                <EKey>4 -176.975967 3.91119242 -143.1046</EKey>
-                <EKey>1 -176.591446 4.29022646 -129.2671</EKey>
+                <EKey>2 -153.470352 -13.595789 -120.91188</EKey>
+                <EKey>1 -164.06134 -2.636759 -102.086517</EKey>
+                <EKey>1 -170.3566 3.323415 -93.93454</EKey>
+                <EKey>1 -176.0476 8.816663 -88.22705</EKey>
+                <EKey>1 -177.228653 11.5577936 -86.73838</EKey>
+                <EKey>2 -177.338516 13.7550926 -90.440834</EKey>
+                <EKey>2 -175.723511 17.0949879 -105.415428</EKey>
+                <EKey>1 -170.6093 15.6832228 -128.404663</EKey>
+                <EKey>1 -168.258179 13.5573359 -136.194092</EKey>
+                <EKey>1 -166.681625 11.4753952 -151.954224</EKey>
+                <EKey>3 -166.093842 9.8713665 -162.677048</EKey>
+                <EKey>8 -165.989471 7.976196 -163.984436</EKey>
+                <EKey>6 -165.879608 4.77912569 -155.750061</EKey>
+                <EKey>3 -165.901581 5.317464 -157.046463</EKey>
+                <EKey>7 -165.703827 2.900435 -150.894028</EKey>
+                <EKey>3 -162.396881 -6.24032974 -127.009384</EKey>
+                <EKey>4 -159.9469 -10.5470362 -121.29641</EKey>
+                <EKey>1 -156.409241 -17.0785084 -118.807968</EKey>
+                <EKey>4 -156.403748 -17.1114674 -118.791489</EKey>
+                <EKey>1 -165.121536 0.867933154 -140.566727</EKey>
+                <EKey>1 -164.863358 2.9169147 -143.165024</EKey>
+                <EKey>2 -163.4351 2.66422534 -143.642944</EKey>
+                <EKey>3 -158.524155 -1.34035254 -140.9128</EKey>
+                <EKey>2 -150.0261 -8.833142 -134.4802</EKey>
+                <EKey>5 -147.625549 -10.9480429 -135.062485</EKey>
+                <EKey>2 -150.322723 -11.0688944 -148.932938</EKey>
+                <EKey>5 -152.168457 -10.6129551 -150.630356</EKey>
+                <EKey>4 -159.117416 -8.904554 -144</EKey>
+                <EKey>7 -165.2314 -8.042115 -130.937057</EKey>
+                <EKey>1 -165.21492 -8.481575 -130.816208</EKey>
             </Bone>
             <Bone>
-                <EKey>3 0 0 -87.09544</EKey>
-                <EKey>4 0 0 -106.558022</EKey>
-                <EKey>7 0 0 -126.22934</EKey>
-                <EKey>2 0 0 -151.47081</EKey>
-                <EKey>1 0 0 -153.783478</EKey>
-                <EKey>1 0 0 -151.6466</EKey>
-                <EKey>2 0 0 -146.471954</EKey>
-                <EKey>3 0 0 -129.201187</EKey>
-                <EKey>5 0 0 -93.9784851</EKey>
-                <EKey>2 0 0 -30.2348366</EKey>
-                <EKey>1 0 0 -9.898832</EKey>
-                <EKey>1 0 0 -11.502861</EKey>
-                <EKey>1 0 0 -24.1208515</EKey>
-                <EKey>1 0 0 -49.7358665</EKey>
-                <EKey>1 0 0 -63.18334</EKey>
-                <EKey>1 0 0 -79.39941</EKey>
-                <EKey>1 0 0 -92.18768</EKey>
-                <EKey>1 0 0 -99.7738647</EKey>
-                <EKey>1 0 0 -103.289543</EKey>
-                <EKey>1 0 0 -104.256355</EKey>
-                <EKey>1 0 0 -102.333717</EKey>
-                <EKey>2 0 0 -96.60975</EKey>
-                <EKey>2 0 0 -77.09224</EKey>
-                <EKey>1 0 0 -61.82101</EKey>
-                <EKey>1 0 0 -56.91005</EKey>
-                <EKey>4 0 0 -57.48684</EKey>
-                <EKey>1 0 0 -76.16388</EKey>
-                <EKey>2 0 0 -78.1799</EKey>
-                <EKey>2 0 0 -74.20279</EKey>
-                <EKey>1 0 0 -66.03433</EKey>
+                <EKey>2 0 0 -50.1973</EKey>
+                <EKey>1 0 0 -71.06065</EKey>
+                <EKey>1 0 0 -79.86633</EKey>
+                <EKey>1 0 0 -85.88144</EKey>
+                <EKey>1 0 0 -88.62806</EKey>
+                <EKey>2 0 0 -85.7551</EKey>
+                <EKey>2 0 0 -71.6209641</EKey>
+                <EKey>1 0 0 -48.47242</EKey>
+                <EKey>1 0 0 -51.7628746</EKey>
+                <EKey>1 0 0 -40.5346756</EKey>
+                <EKey>4 0 0 -31.3609524</EKey>
+                <EKey>8 0 0 -28.70222</EKey>
+                <EKey>5 0 0 -30.8061333</EKey>
+                <EKey>3 0 0 -29.6800175</EKey>
+                <EKey>7 0 0 -36.0741577</EKey>
+                <EKey>3 0 0 -60.3378334</EKey>
+                <EKey>5 0 0 -64.69398</EKey>
+                <EKey>4 0 0 -63.61181</EKey>
+                <EKey>2 0 0 -56.3277626</EKey>
+                <EKey>4 0 0 -57.9043274</EKey>
+                <EKey>1 0 0 -71.3792648</EKey>
+                <EKey>1 0 0 -73.03273</EKey>
+                <EKey>1 0 0 -72.6372147</EKey>
+                <EKey>2 0 0 -69.46212</EKey>
+                <EKey>2 0 0 -56.83314</EKey>
+                <EKey>1 0 0 -42.18265</EKey>
+                <EKey>1 0 0 -36.48066</EKey>
+                <EKey>1 0 0 -33.1242828</EKey>
+                <EKey>2 0 0 -32.59693</EKey>
+                <EKey>7 0 0 -37.39254</EKey>
+                <EKey>7 0 0 -62.2275124</EKey>
+                <EKey>1 0 0 -62.2275124</EKey>
             </Bone>
             <Bone>
-                <EKey>4 -0.05493248 -0.2636759 43.73724</EKey>
-                <EKey>9 0.131837949 -0.06042573 37.6397362</EKey>
-                <EKey>4 0.0769054741 0.7031357 12.3762875</EKey>
-                <EKey>5 0.20325017 1.01075757 -0.807507455</EKey>
-                <EKey>9 0.170290679 1.35683227 -5.718471</EKey>
-                <EKey>1 1.07118332 1.83474481 -4.570382</EKey>
-                <EKey>1 1.11512935 1.98306251 -1.95559621</EKey>
-                <EKey>1 0.8953994 2.504921 3.78484774</EKey>
-                <EKey>2 0.8514534 2.78507662 3.28496218</EKey>
-                <EKey>1 0.269169152 3.37285423 25.2249947</EKey>
-                <EKey>4 0.0494392328 3.58159757 32.72877</EKey>
-                <EKey>2 0.444953084 3.51018548 50.1149</EKey>
-                <EKey>4 0.818493962 3.33989477 52.5429153</EKey>
-                <EKey>1 0.818493962 3.36186767 47.7033653</EKey>
-                <EKey>1 0.6756695 3.279469 44.5392532</EKey>
-                <EKey>2 0.714122236 3.31792164 35.8324547</EKey>
-                <EKey>1 0.867933154 3.48271918 15.0569925</EKey>
-                <EKey>1 1.06019688 3.52666521 9.898832</EKey>
-                <EKey>2 1.37880516 3.51018548 10.2064543</EKey>
-                <EKey>1 2.241245 3.25749588 18.85832</EKey>
-                <EKey>1 2.6971848 3.015793 24.5218582</EKey>
+                <EKey>2 -8.569467 -10.2613869 -1.26894021</EKey>
+                <EKey>2 7.8937974 -0.9228656 2.482948</EKey>
+                <EKey>3 22.64866 8.970474 -0.510872066</EKey>
+                <EKey>1 24.104372 10.5525293 4.44403744</EKey>
+                <EKey>1 22.88487 9.47036 5.43831539</EKey>
+                <EKey>1 16.5346756 5.78439 5.6031127</EKey>
+                <EKey>1 8.415656 1.35683227 3.169604</EKey>
+                <EKey>1 2.75761032 -1.06019688 -6.44357967</EKey>
+                <EKey>1 -1.92813 -1.62600136 -26.4444962</EKey>
+                <EKey>3 -4.51544952 -1.10414279 -40.0128174</EKey>
+                <EKey>8 -5.383383 -1.88967729 -40.3918533</EKey>
+                <EKey>7 -3.82879376 -5.542687 -26.1258869</EKey>
+                <EKey>10 4.367132 -9.4374 -25.0547028</EKey>
+                <EKey>7 6.778668 -7.009384 -23.0991077</EKey>
+                <EKey>3 10.1075764 -4.476997 -24.9228649</EKey>
+                <EKey>3 8.35523 -5.405356 -11.7994967</EKey>
+                <EKey>4 9.843901 -6.388647 1.04371715</EKey>
+                <EKey>2 12.2499428 -12.2829027 16.0018311</EKey>
+                <EKey>3 12.9640646 -14.5131607 19.6438541</EKey>
+                <EKey>4 10.92607 -16.650034 17.92996</EKey>
+                <EKey>6 7.28954 -15.2162962 10.7612724</EKey>
+                <EKey>4 10.3437862 -6.41611338 4.48249</EKey>
+                <EKey>7 11.8599224 -3.477226 -7.910277</EKey>
+                <EKey>1 11.8599224 -3.477226 -7.910277</EKey>
             </Bone>
             <Bone>
-                <EKey>1 177.618683 1.34035254 -149.147171</EKey>
-                <EKey>1 177.61319 1.64248109 -157.733124</EKey>
-                <EKey>2 177.640656 1.884184 -169.516144</EKey>
-                <EKey>1 177.6077 1.950103 -177.838409</EKey>
-                <EKey>2 177.6077 1.86770427 -178.46463</EKey>
-                <EKey>3 177.783478 1.4447242 -173.960175</EKey>
-                <EKey>3 178.157013 0.7470817 -159.754639</EKey>
-                <EKey>4 178.4921 0.208743423 -136.726944</EKey>
-                <EKey>2 179.107346 -0.197756931 -103.448845</EKey>
-                <EKey>4 179.28862 -0.219729915 -92.02838</EKey>
-                <EKey>3 179.195236 -0.1373312 -79.22911</EKey>
-                <EKey>3 178.9041 -0.08239872 -74.9169159</EKey>
-                <EKey>1 178.62944 -0.05493248 -75.55413</EKey>
-                <EKey>1 178.574509 -0.05493248 -76.9274445</EKey>
-                <EKey>2 178.552536 -0.05493248 -80.8661041</EKey>
-                <EKey>2 178.5855 -0.08239872 -97.5161362</EKey>
-                <EKey>1 178.640427 -0.1153582 -115.264824</EKey>
-                <EKey>1 178.634933 -0.120851457 -120.5658</EKey>
-                <EKey>1 178.536057 -0.0494392328 -114.731972</EKey>
-                <EKey>2 178.426178 0.005493248 -103.498283</EKey>
-                <EKey>1 178.62944 -0.0988784656 -87.7436447</EKey>
-                <EKey>1 178.62944 -0.09338521 -83.28863</EKey>
-                <EKey>3 178.415192 0 -83.84894</EKey>
-                <EKey>2 177.387955 0.6042573 -96.95033</EKey>
-                <EKey>2 176.750748 1.27992678 -100.427559</EKey>
-                <EKey>1 176.536514 1.96108949 -106.349281</EKey>
-                <EKey>2 176.476074 2.29617763 -110.9691</EKey>
-                <EKey>4 176.514542 2.89494157 -129.777985</EKey>
-                <EKey>1 176.954 2.10940719 -154.4921</EKey>
+                <EKey>3 166.879379 12.5685511 -143.747314</EKey>
+                <EKey>1 165.242386 25.2304878 -117.324791</EKey>
+                <EKey>1 163.808655 27.88922 -110.518654</EKey>
+                <EKey>2 162.9517 28.7132072 -107.239182</EKey>
+                <EKey>3 162.918747 26.8894482 -108.837723</EKey>
+                <EKey>3 164.55574 14.8647289 -138.666061</EKey>
+                <EKey>2 164.368958 19.0395966 -142.2916</EKey>
+                <EKey>4 164.044861 20.6436253 -141.923553</EKey>
+                <EKey>4 162.4628 16.5181961 -136.331421</EKey>
+                <EKey>2 161.5729 10.4261847 -131.096359</EKey>
+                <EKey>5 161.556427 8.217898 -131.766541</EKey>
+                <EKey>4 161.9025 4.33417273 -143.329819</EKey>
+                <EKey>8 162.006866 -0.6921492 -145.03273</EKey>
+                <EKey>5 163.242844 -13.5848017 -139.863586</EKey>
+                <EKey>1 166.027924 -24.8569469 -132.046692</EKey>
+                <EKey>3 165.994965 -24.7031364 -131.821472</EKey>
+                <EKey>2 163.402145 -9.73403549 -132.42572</EKey>
+                <EKey>6 165.000687 -5.97665358 -132.782791</EKey>
+                <EKey>5 174.696274 -5.24055862 -134.936142</EKey>
+                <EKey>3 -176.2179 -6.558938 -134.77684</EKey>
+                <EKey>3 -170.329132 -5.8338294 -126.817123</EKey>
+                <EKey>3 -173.158157 -3.40581369 -128.778214</EKey>
+                <EKey>3 -175.8938 -0.324101627 -133.47493</EKey>
+                <EKey>3 -176.08606 3.25749588 -139.995422</EKey>
+                <EKey>5 178.5031 3.43328 -145.4612</EKey>
+                <EKey>1 164.149231 1.98855579 -153.986725</EKey>
             </Bone>
             <Bone>
-                <EKey>1 0 0 -87.04051</EKey>
-                <EKey>1 0 0 -69.9949646</EKey>
-                <EKey>2 0 0 -46.4344254</EKey>
-                <EKey>1 0 0 -18.473793</EKey>
-                <EKey>2 0 0 -11.1842527</EKey>
-                <EKey>1 0 0 -7.32799244</EKey>
-                <EKey>1 0 0 -8.476082</EKey>
-                <EKey>1 0 0 -12.7333488</EKey>
-                <EKey>1 0 0 -20.8853283</EKey>
-                <EKey>1 0 0 -33.77798</EKey>
-                <EKey>4 0 0 -50.72465</EKey>
-                <EKey>1 0 0 -128.915543</EKey>
-                <EKey>1 0 0 -143.5166</EKey>
-                <EKey>1 0 0 -153.124283</EKey>
-                <EKey>1 0 0 -156.222473</EKey>
-                <EKey>1 0 0 -152.921036</EKey>
-                <EKey>1 0 0 -144.917374</EKey>
-                <EKey>1 0 0 -133.1014</EKey>
-                <EKey>5 0 0 -118.357521</EKey>
-                <EKey>1 0 0 -31.8004112</EKey>
-                <EKey>1 0 0 -18.1332111</EKey>
-                <EKey>1 0 0 -7.74547958</EKey>
-                <EKey>1 0 0 -2.19180584</EKey>
-                <EKey>3 0 0 -1.351339</EKey>
-                <EKey>1 0 0 -10.849165</EKey>
-                <EKey>1 0 0 -12.601511</EKey>
-                <EKey>1 0 0 -9.519798</EKey>
-                <EKey>1 0 0 -10.3218126</EKey>
-                <EKey>1 0 0 -23.2639046</EKey>
-                <EKey>1 0 0 -40.3149452</EKey>
-                <EKey>1 0 0 -53.152668</EKey>
-                <EKey>3 0 0 -57.6021957</EKey>
-                <EKey>2 0 0 -59.62371</EKey>
-                <EKey>2 0 0 -77.16365</EKey>
-                <EKey>1 0 0 -87.93591</EKey>
-                <EKey>2 0 0 -90.02884</EKey>
-                <EKey>2 0 0 -76.2298</EKey>
-                <EKey>2 0 0 -80.234375</EKey>
-                <EKey>1 0 0 -87.85901</EKey>
+                <EKey>3 0 0 -62.58457</EKey>
+                <EKey>1 0 0 -103.690544</EKey>
+                <EKey>1 0 0 -112.781876</EKey>
+                <EKey>3 0 0 -114.803391</EKey>
+                <EKey>1 0 0 -102.525978</EKey>
+                <EKey>1 0 0 -94.0499</EKey>
+                <EKey>3 0 0 -81.29458</EKey>
+                <EKey>1 0 0 -61.98581</EKey>
+                <EKey>1 0 0 -58.03067</EKey>
+                <EKey>2 0 0 -57.0913239</EKey>
+                <EKey>5 0 0 -62.61753</EKey>
+                <EKey>2 0 0 -88.88075</EKey>
+                <EKey>1 0 0 -94.2366638</EKey>
+                <EKey>2 0 0 -93.593956</EKey>
+                <EKey>3 0 0 -86.11215</EKey>
+                <EKey>2 0 0 -72.1483154</EKey>
+                <EKey>4 0 0 -69.86862</EKey>
+                <EKey>4 0 0 -74.64774</EKey>
+                <EKey>3 0 0 -81.0254059</EKey>
+                <EKey>4 0 0 -80.41566</EKey>
+                <EKey>1 0 0 -74.29618</EKey>
+                <EKey>3 0 0 -74.3895645</EKey>
+                <EKey>3 0 0 -62.6889458</EKey>
+                <EKey>11 0 0 -59.1897469</EKey>
+                <EKey>3 0 0 -60.2334633</EKey>
+                <EKey>13 0 0 -60.22797</EKey>
+                <EKey>3 0 0 -44.19318</EKey>
+                <EKey>1 0 0 -39.47448</EKey>
             </Bone>
             <Bone>
-                <EKey>1 0.07141222 -0.725108743 29.4987411</EKey>
-                <EKey>1 -0.302128643 -0.5877775 22.5058365</EKey>
-                <EKey>2 -0.5438315 -0.351567864 11.4039822</EKey>
-                <EKey>1 -0.6536965 -0.214236662 -31.1467152</EKey>
-                <EKey>1 -0.637216747 -0.214236662 -44.53376</EKey>
-                <EKey>1 -0.5273518 -0.269169152 -47.9560547</EKey>
-                <EKey>4 -0.3790341 -0.362554371 -47.3957443</EKey>
-                <EKey>6 0.192263678 -0.637216747 -31.3005257</EKey>
-                <EKey>2 0.708628953 0.8349737 1.54360271</EKey>
-                <EKey>3 0.6976425 1.34035254 7.58617544</EKey>
-                <EKey>7 1.66994739 1.30189979 7.81139851</EKey>
-                <EKey>2 1.90066373 -1.4447242 -4.032044</EKey>
-                <EKey>4 1.9116503 -1.26894021 -3.279469</EKey>
-                <EKey>1 2.36209655 1.35683227 8.195926</EKey>
-                <EKey>2 2.26321816 1.89517057 8.816663</EKey>
-                <EKey>1 3.1586175 1.66994739 -8.37171</EKey>
-                <EKey>2 3.19707036 2.05447459 -8.130007</EKey>
-                <EKey>3 2.746624 3.24101615 -2.99931335</EKey>
-                <EKey>1 1.263447 4.84504461 -5.72945738</EKey>
-                <EKey>2 0.472419322 5.37788963 1.241474</EKey>
-                <EKey>4 -2.02700853 5.960174 22.0334167</EKey>
-                <EKey>1 -4.872511 5.69100475 29.59762</EKey>
-                <EKey>4 -5.1087203 5.734951 29.839323</EKey>
-                <EKey>1 -7.81139851 3.966125 15.1998167</EKey>
+                <EKey>3 7.87731743 13.2661934 19.9679565</EKey>
+                <EKey>1 -9.497826 20.8963146 43.5834274</EKey>
+                <EKey>1 -14.4692154 20.4898148 49.3678169</EKey>
+                <EKey>2 -16.3918514 19.7976646 51.02678</EKey>
+                <EKey>1 -14.1560993 18.5836582 49.0272369</EKey>
+                <EKey>1 -7.514763 17.2268257 52.17487</EKey>
+                <EKey>1 -0.1373312 16.1116962 52.91646</EKey>
+                <EKey>1 7.382925 14.557107 50.6037979</EKey>
+                <EKey>2 4.213321 11.8654156 35.4094772</EKey>
+                <EKey>1 -7.21263456 12.7223625 -0.1373312</EKey>
+                <EKey>1 -12.1345844 15.9249258 -14.1506062</EKey>
+                <EKey>1 -15.0844584 18.0727863 -22.03891</EKey>
+                <EKey>1 -16.66102 18.2595558 -24.7910271</EKey>
+                <EKey>2 -17.7322044 17.4575424 -25.3897915</EKey>
+                <EKey>4 -18.4133663 13.8100252 -22.03891</EKey>
+                <EKey>2 -16.1776142 6.21286345 -10.1844816</EKey>
+                <EKey>5 -16.7324333 5.009842 -9.492332</EKey>
+                <EKey>3 -24.0604248 7.95971632 -18.14969</EKey>
+                <EKey>6 -23.1430531 8.162967 -18.918745</EKey>
+                <EKey>2 -14.4692154 6.943465 -14.1945524</EKey>
+                <EKey>2 -10.9315634 7.388418 -15.3646145</EKey>
+                <EKey>4 -6.39414072 8.283818 -21.9949646</EKey>
+                <EKey>1 5.21858549 8.130007 -42.62211</EKey>
+                <EKey>3 5.14168024 8.272831 -42.7924</EKey>
+                <EKey>1 0.7910277 18.3859 -52.64729</EKey>
+                <EKey>3 -0.818493962 20.1382465 -51.80682</EKey>
+                <EKey>5 -7.59166861 18.3749142 -38.36484</EKey>
+                <EKey>3 -15.106432 4.72968626 -12.6399632</EKey>
+                <EKey>1 -15.8480206 -5.246052 -1.329366</EKey>
+                <EKey>1 -15.8040743 -7.998169 1.28542006</EKey>
+                <EKey>2 -16.6335545 -8.542001 -0.258182645</EKey>
+                <EKey>3 -18.369421 -4.141909 -8.937514</EKey>
+                <EKey>6 -14.386816 -1.11512935 -8.327764</EKey>
+                <EKey>3 -3.42229342 3.39482713 -0.8844129</EKey>
+                <EKey>5 -2.4994278 2.20279241 -0.9887846</EKey>
+                <EKey>1 -5.943694 -2.6697185 -4.493477</EKey>
             </Bone>
             <Bone>
-                <EKey>10 -0.197756931 -1.15907526 7.01487732</EKey>
-                <EKey>8 0.142824441 -1.61501491 34.97551</EKey>
-                <EKey>3 0.8020142 -1.54909587 54.10849</EKey>
-                <EKey>3 1.05470359 -1.40627146 57.4483871</EKey>
-                <EKey>1 1.263447 -1.20302129 54.8940277</EKey>
-                <EKey>1 1.329366 -1.1261158 51.2025642</EKey>
-                <EKey>2 1.38979173 -1.03822386 44.80293</EKey>
-                <EKey>3 1.54909587 -0.878919661 26.6642246</EKey>
-                <EKey>3 1.84023809 -0.7470817 -3.345388</EKey>
-                <EKey>1 2.71366453 -0.95582515 -25.065691</EKey>
-                <EKey>1 2.86747551 -1.0272373 -29.0702686</EKey>
-                <EKey>1 2.323644 -0.8020142 -28.70222</EKey>
-                <EKey>2 0.6317235 -0.236209661 -20.7974358</EKey>
-                <EKey>1 -4.7077136 -0.208743423 6.36118126</EKey>
-                <EKey>2 -6.773175 -0.708628953 14.17258</EKey>
-                <EKey>3 -10.2558937 -1.197528 16.8642712</EKey>
-                <EKey>3 -15.2712288 -1.09315634 12.8157473</EKey>
-                <EKey>4 -16.4852371 -0.428473324 7.87182426</EKey>
-                <EKey>4 -9.272602 -0.1373312 5.180133</EKey>
-                <EKey>1 1.87319756 -0.3460746 2.62577248</EKey>
+                <EKey>4 11.261158 8.042115 19.5120163</EKey>
+                <EKey>1 14.6504917 25.0876637 21.0171661</EKey>
+                <EKey>2 15.5458918 27.6420231 21.1050587</EKey>
+                <EKey>3 17.5838871 26.6367588 20.7315178</EKey>
+                <EKey>4 21.0940723 16.05127 19.9349957</EKey>
+                <EKey>5 24.3680477 -1.05470359 19.92401</EKey>
+                <EKey>7 24.1922646 -11.2941179 20.4019222</EKey>
+                <EKey>14 21.1215382 -18.31449 20.4568558</EKey>
+                <EKey>6 21.6543827 -24.4504471 23.6429386</EKey>
+                <EKey>2 21.3687344 -21.46212 22.1377888</EKey>
+                <EKey>1 20.9347668 -18.8198681 20.44587</EKey>
+                <EKey>3 20.5392532 -13.9253836 17.5344467</EKey>
+                <EKey>1 22.98375 16.2050819 -0.714122236</EKey>
+                <EKey>1 23.6539249 21.2918282 -4.75715256</EKey>
+                <EKey>2 22.3135738 22.0938435 -6.070039</EKey>
+                <EKey>3 16.2050819 18.3254757 -5.46578169</EKey>
+                <EKey>2 7.32249928 8.075074 -3.55413127</EKey>
+                <EKey>6 6.57541752 5.1087203 -4.2847333</EKey>
+                <EKey>4 17.9739075 3.350881 -8.717784</EKey>
+                <EKey>7 18.3859 2.29617763 -9.20119</EKey>
+                <EKey>6 10.6184483 1.17006183 -7.2071414</EKey>
+                <EKey>1 -1.79629207 0.450446337 -3.46623945</EKey>
             </Bone>
             <Bone>
-                <EKey>8 -0.3680476 -1.23598075 -10.1899748</EKey>
-                <EKey>6 0.8130007 -1.40077817 22.6871128</EKey>
-                <EKey>5 1.59853518 -1.21400774 36.8816681</EKey>
-                <EKey>4 2.21927214 -1.0052644 44.00641</EKey>
-                <EKey>2 2.68619823 -0.6921492 42.9846649</EKey>
-                <EKey>2 2.9114213 -0.477912575 37.87045</EKey>
-                <EKey>3 3.1366446 -0.241702914 23.7692833</EKey>
-                <EKey>1 3.52117181 -0.0659189746 -2.54337382</EKey>
-                <EKey>1 3.64751649 -0.06042573 -9.349508</EKey>
-                <EKey>1 3.768368 -0.0769054741 -13.7715721</EKey>
-                <EKey>2 4.097963 -0.159304187 -12.9530783</EKey>
-                <EKey>1 4.76264572 -0.269169152 0.488899052</EKey>
-                <EKey>2 4.2298007 -0.219729915 5.866789</EKey>
-                <EKey>4 -0.0219729915 -0.142824441 9.90982</EKey>
-                <EKey>4 -8.256351 -0.20325017 11.2831316</EKey>
-                <EKey>3 -14.1341267 -0.06042573 10.0746164</EKey>
-                <EKey>5 -13.2387276 0.0769054741 9.525291</EKey>
-                <EKey>2 -1.32387269 0.197756931 9.4374</EKey>
-                <EKey>1 4.30670643 0.236209661 9.4374</EKey>
+                <EKey>4 -14.0627146 -7.05333042 -3.99908447</EKey>
+                <EKey>2 -1.62600136 0.197756931 -2.11490035</EKey>
+                <EKey>3 1.950103 0.40650034 -1.74685287</EKey>
+                <EKey>4 2.081941 -8.151979 -1.263447</EKey>
+                <EKey>2 -1.52712286 -23.6868839 -1.49416339</EKey>
+                <EKey>4 -3.587091 -27.7793541 -2.03799486</EKey>
+                <EKey>7 -7.88830376 -26.779583 -3.22453642</EKey>
+                <EKey>8 -14.3813229 -17.5838871 -4.125429</EKey>
+                <EKey>8 -17.4630356 -17.6992455 -3.922179</EKey>
+                <EKey>5 -18.4792862 -19.9789429 -3.62005043</EKey>
+                <EKey>1 -15.7821016 -18.0013733 -3.966125</EKey>
+                <EKey>1 -14.7933168 -17.029068 -4.15289545</EKey>
+                <EKey>3 -11.6127262 -13.5738153 -4.949416</EKey>
+                <EKey>1 9.300069 5.866789 -13.9089041</EKey>
+                <EKey>1 13.8429842 8.421149 -16.1611347</EKey>
+                <EKey>2 15.5294113 8.11902 -16.50721</EKey>
+                <EKey>3 15.5843439 3.74090171 -14.6999311</EKey>
+                <EKey>2 13.1343555 -4.812085 -9.898832</EKey>
+                <EKey>6 13.1453419 -6.20737028 -7.52025652</EKey>
+                <EKey>4 14.52964 0.637216747 -0.9997711</EKey>
+                <EKey>6 11.5468073 2.103914 -1.58754861</EKey>
+                <EKey>6 4.054017 2.0325017 -4.630808</EKey>
+                <EKey>1 -3.53765154 0.7635614 2.84550238</EKey>
+                <EKey>1 -4.82307148 0.3790341 4.37262535</EKey>
             </Bone>
             <Bone>
-                <EKey>56 0 -0.0109864958 17.99588</EKey>
+                <EKey>84 0 -0.0109864958 17.99588</EKey>
                 <EKey>1 0 -0.0109864958 17.99588</EKey>
             </Bone>
             <Bone>
-                <EKey>2 0.466926068 0.192263678 -5.8338294</EKey>
-                <EKey>6 0.0329594873 0.428473324 3.04325938</EKey>
-                <EKey>2 -0.5877775 1.351339 42.33646</EKey>
-                <EKey>3 -0.725108743 1.71389329 49.7029076</EKey>
-                <EKey>5 -0.8459602 2.38956285 52.7571526</EKey>
-                <EKey>7 -0.7470817 3.5980773 48.8404655</EKey>
-                <EKey>4 -2.35660338 4.46051741 39.419548</EKey>
-                <EKey>3 -5.6031127 1.12062252 35.60723</EKey>
-                <EKey>1 -5.570153 -1.80727851 27.5651188</EKey>
-                <EKey>2 -5.96566725 -1.82375824 20.6106663</EKey>
-                <EKey>1 -7.10276937 -0.32959488 -0.3900206</EKey>
-                <EKey>1 -6.086519 -0.06042573 -7.36644554</EKey>
-                <EKey>2 -3.191577 -0.950331867 -8.745251</EKey>
-                <EKey>4 4.828565 -5.652552 -4.0650034</EKey>
-                <EKey>3 16.71046 -13.88693 -4.59235525</EKey>
-                <EKey>2 24.7196159 -17.4959946 -0.554818034</EKey>
-                <EKey>2 25.4282436 -17.2213326 -1.31288624</EKey>
-                <EKey>3 20.7644768 -14.5406275 -5.8612957</EKey>
-                <EKey>3 7.8937974 -7.21812773 -13.6726942</EKey>
-                <EKey>1 -6.7292285 1.19203484 -19.0725574</EKey>
+                <EKey>1 22.1872272 -11.0469217 -28.427557</EKey>
+                <EKey>2 6.756695 -9.519798 -28.10895</EKey>
+                <EKey>1 -27.6859684 -5.58114 -29.9656677</EKey>
+                <EKey>1 -42.9297333 -2.40604258 -31.0313568</EKey>
+                <EKey>1 -54.64134 0.95582515 -30.8171215</EKey>
+                <EKey>1 -61.4309921 3.389334 -28.5758762</EKey>
+                <EKey>2 -64.54566 5.26253128 -24.0824</EKey>
+                <EKey>3 -67.40215 9.173724 -9.970245</EKey>
+                <EKey>2 -65.72671 13.29366 15.518425</EKey>
+                <EKey>2 -62.0462341 14.2714577 28.5868626</EKey>
+                <EKey>3 -57.81094 12.6784163 34.62394</EKey>
+                <EKey>5 -49.7029076 8.140993 36.398262</EKey>
+                <EKey>3 -37.288166 -1.99954224 32.1135254</EKey>
+                <EKey>5 -32.7013054 -6.174411 29.9821472</EKey>
+                <EKey>7 -26.0929279 -6.42160654 27.14763</EKey>
+                <EKey>6 -16.5456619 -0.07141222 18.45182</EKey>
+                <EKey>3 -11.2941179 5.12520027 7.35545874</EKey>
+                <EKey>1 -10.26688 5.50972748 1.54360271</EKey>
+                <EKey>1 -12.19501 4.570382 -1.884184</EKey>
+                <EKey>1 -15.8480206 1.92263675 -7.20164776</EKey>
+                <EKey>1 -18.6330967 -2.38956285 -11.8709087</EKey>
+                <EKey>1 -20.0064087 -7.135729 -13.3156328</EKey>
+                <EKey>1 -20.5832 -10.7777519 -10.7612724</EKey>
+                <EKey>1 -19.51751 -11.8818951 -6.168917</EKey>
+                <EKey>3 -16.3149471 -10.2558937 -1.51064312</EKey>
+                <EKey>1 -1.59853518 -0.450446337 9.21766949</EKey>
+                <EKey>1 2.636759 0.7635614 12.3048754</EKey>
+                <EKey>2 5.15815973 -0.4943923 16.3918514</EKey>
+                <EKey>3 5.66353846 -7.465324 26.8729687</EKey>
+                <EKey>2 2.2247653 -19.0670643 42.82536</EKey>
+                <EKey>2 0.2526894 -23.967041 50.8674736</EKey>
+                <EKey>4 0.324101627 -25.0217438 55.0478363</EKey>
+                <EKey>3 2.11490035 -22.68162 58.03067</EKey>
+                <EKey>3 2.42801547 -18.5946445 55.32799</EKey>
+                <EKey>5 2.02151513 -13.02449 47.9230957</EKey>
+                <EKey>1 7.74547958 -3.25200272 32.65736</EKey>
             </Bone>
             <Bone>
-                <EKey>14 68.5062943 70.6981 110.381325</EKey>
-                <EKey>4 67.61089 70.5882339 111.22728</EKey>
-                <EKey>10 93.1709747 71.92859 87.12291</EKey>
-                <EKey>4 152.256348 55.83337 33.47036</EKey>
-                <EKey>2 157.469437 49.9995422 28.8120842</EKey>
-                <EKey>2 156.793777 49.69192 28.6088352</EKey>
-                <EKey>5 150.152435 54.2183571 31.94873</EKey>
-                <EKey>4 111.952393 69.36874 60.27741</EKey>
-                <EKey>11 93.61593 71.74731 77.97116</EKey>
-                <EKey>1 77.63058 71.59899 101.097733</EKey>
+                <EKey>19 93.35226 71.9230957 86.804306</EKey>
+                <EKey>30 95.68688 71.8681641 84.58503</EKey>
+                <EKey>35 121.532616 69.07759 60.17853</EKey>
+                <EKey>1 100.422066 71.6704 80.09155</EKey>
             </Bone>
             <Bone>
-                <EKey>3 25.87869 68.52277 5.075761</EKey>
-                <EKey>3 34.711834 58.124054 -28.66926</EKey>
-                <EKey>2 25.6534672 42.8802948 -48.4614334</EKey>
-                <EKey>2 16.4632645 32.542 -57.2121773</EKey>
-                <EKey>1 8.60792 23.0716419 -63.458</EKey>
-                <EKey>1 5.30647755 18.8143749 -65.7596741</EKey>
-                <EKey>1 4.273747 14.7328911 -66.57816</EKey>
-                <EKey>1 5.55367374 11.3600368 -65.60586</EKey>
-                <EKey>1 5.383383 9.766994 -64.3753738</EKey>
-                <EKey>4 -0.0878919661 10.8052187 -64.60609</EKey>
-                <EKey>3 -42.17716 21.7752342 -64.0293</EKey>
-                <EKey>2 -74.4609756 25.4996567 -54.762188</EKey>
-                <EKey>1 -91.34722 24.9503326 -46.7914848</EKey>
-                <EKey>1 -95.2199554 25.25246 -42.6001358</EKey>
-                <EKey>1 -94.08835 27.4882126 -38.0517273</EKey>
-                <EKey>2 -89.43008 31.6685734 -33.28359</EKey>
-                <EKey>2 -73.60403 44.1657143 -25.3128872</EKey>
-                <EKey>1 -53.3723946 56.3497353 -23.2089729</EKey>
-                <EKey>1 -44.7095451 59.9697876 -23.4341946</EKey>
-                <EKey>1 -41.7871361 61.2826729 -21.5115585</EKey>
-                <EKey>1 -43.10002 60.4422073 -16.2490273</EKey>
-                <EKey>1 -44.8963165 57.9647522 -8.140993</EKey>
-                <EKey>1 -46.796978 54.6852837 2.6697185</EKey>
-                <EKey>1 -53.82284 49.5820541 17.8695354</EKey>
-                <EKey>1 -64.98512 42.62211 33.1517525</EKey>
-                <EKey>1 -74.67521 36.8157463 44.5777054</EKey>
-                <EKey>2 -79.5642 34.7997246 53.3339424</EKey>
-                <EKey>3 -81.7615051 33.717556 67.96796</EKey>
-                <EKey>2 -80.79469 29.8118553 82.97551</EKey>
-                <EKey>2 -78.09201 30.71275 89.29824</EKey>
-                <EKey>3 -74.439 36.17304 89.96292</EKey>
-                <EKey>4 -61.3870468 50.8564873 79.59167</EKey>
-                <EKey>1 -12.8432131 64.0073242 33.79446</EKey>
+                <EKey>2 -34.7777519 29.6525517 15.8535137</EKey>
+                <EKey>1 -36.6948967 44.04486 34.66789</EKey>
+                <EKey>1 -37.49691 51.73541 44.7809563</EKey>
+                <EKey>1 -37.5628281 58.5799942 53.4712753</EKey>
+                <EKey>1 -36.2829 63.6502647 59.07988</EKey>
+                <EKey>1 -33.2231636 65.90799 60.1510658</EKey>
+                <EKey>2 -28.6802464 65.3586655 57.42092</EKey>
+                <EKey>4 -19.75372 59.0579071 49.203022</EKey>
+                <EKey>2 -12.3158617 38.8482475 37.7990379</EKey>
+                <EKey>3 -11.78851 32.9594879 35.16228</EKey>
+                <EKey>6 -14.9965668 30.7731743 35.9862671</EKey>
+                <EKey>4 -27.5101852 35.777523 43.5394821</EKey>
+                <EKey>7 -34.1350441 38.85374 45.17647</EKey>
+                <EKey>6 -39.9908447 38.3208961 38.3868179</EKey>
+                <EKey>4 -40.30396 38.25498 29.6031132</EKey>
+                <EKey>3 -37.9144 41.79263 25.0217438</EKey>
+                <EKey>1 -32.4650955 46.08835 21.2149239</EKey>
+                <EKey>1 -27.4717331 53.2845039 19.7317467</EKey>
+                <EKey>1 -14.6175327 68.7425 13.2277412</EKey>
+                <EKey>1 53.0812531 81.20119 -47.3023567</EKey>
+                <EKey>1 114.9572 70.84093 -102.855576</EKey>
+                <EKey>1 119.170517 62.24399 -103.465324</EKey>
+                <EKey>1 110.189056 59.92035 -93.27535</EKey>
+                <EKey>3 96.0439453 59.0579071 -78.31724</EKey>
+                <EKey>1 51.80682 48.241703 -29.8777752</EKey>
+                <EKey>1 45.2314034 43.121994 -20.81941</EKey>
+                <EKey>2 43.31975 39.22179 -16.0128174</EKey>
+                <EKey>5 46.9892426 34.4756241 -14.34287</EKey>
+                <EKey>5 63.9249268 25.52163 -17.8310833</EKey>
+                <EKey>1 78.6962662 21.2753487 -7.251087</EKey>
+                <EKey>2 81.8823547 17.166399 -5.487755</EKey>
+                <EKey>1 87.93591 0.6042573 -3.52666521</EKey>
+                <EKey>1 89.74868 -4.652781 -2.65323877</EKey>
+                <EKey>2 90.18265 -6.163424 -1.97207594</EKey>
+                <EKey>4 87.73266 -4.53192949 -1.087663</EKey>
+                <EKey>1 77.89975 5.8228426 2.18631268</EKey>
+                <EKey>1 74.97185 9.157245 3.39482713</EKey>
             </Bone>
             <Bone>
-                <EKey>8 0 0 -82.86565</EKey>
-                <EKey>3 0 0 -51.642025</EKey>
-                <EKey>1 0 0 -46.8464165</EKey>
-                <EKey>2 0 0 -52.3012123</EKey>
-                <EKey>1 0 0 -76.50996</EKey>
-                <EKey>4 0 0 -82.09659</EKey>
-                <EKey>12 0 0 -78.93797</EKey>
-                <EKey>3 0 0 -52.1693764</EKey>
-                <EKey>4 0 0 -48.9173737</EKey>
-                <EKey>15 0 0 -51.52117</EKey>
-                <EKey>3 0 0 -65.8201</EKey>
-                <EKey>1 0 0 -68.45136</EKey>
+                <EKey>4 0 0 -89.58938</EKey>
+                <EKey>1 0 0 -69.40719</EKey>
+                <EKey>1 0 0 -66.34196</EKey>
+                <EKey>2 0 0 -65.64431</EKey>
+                <EKey>6 0 0 -70.21469</EKey>
+                <EKey>2 0 0 -97.59304</EKey>
+                <EKey>8 0 0 -101.696495</EKey>
+                <EKey>23 0 0 -101.377892</EKey>
+                <EKey>33 0 0 -83.87091</EKey>
+                <EKey>4 0 0 -81.94827</EKey>
+                <EKey>1 0 0 -81.90433</EKey>
             </Bone>
             <Bone>
-                <EKey>11 -89.96292 -0.0109864958 -4.740673</EKey>
-                <EKey>2 -135.271225 4.405585 13.7880526</EKey>
-                <EKey>1 -141.275345 3.658503 16.5181961</EKey>
-                <EKey>2 -142.571762 3.477226 17.0730152</EKey>
-                <EKey>7 -139.803162 4.433051 15.210803</EKey>
-                <EKey>8 -119.89563 7.800412 2.20279241</EKey>
-                <EKey>4 -95.6044846 5.405356 -13.2222481</EKey>
-                <EKey>5 -88.2160645 3.15312433 -17.100481</EKey>
-                <EKey>16 -86.76036 2.0105288 -15.8095675</EKey>
-                <EKey>1 -89.74868 0.120851457 -5.68551159</EKey>
+                <EKey>4 -148.878 7.37193871 29.75143</EKey>
+                <EKey>2 -130.48111 17.100481 25.9061565</EKey>
+                <EKey>4 -124.647285 19.775692 24.1318378</EKey>
+                <EKey>6 -123.81781 20.61616 24.8294811</EKey>
+                <EKey>17 -129.201187 18.3913937 26.1533527</EKey>
+                <EKey>12 -142.275116 10.8436708 11.4534216</EKey>
+                <EKey>5 -149.482254 7.619135 -0.0878919661</EKey>
+                <EKey>14 -148.114441 6.778668 -3.19707036</EKey>
+                <EKey>20 -127.185165 4.191348 -5.8228426</EKey>
+                <EKey>1 -91.71526 0.186770424 -5.56466</EKey>
             </Bone>
             <Bone>
-                <EKey>13 -75.021286 -71.36828 104.228882</EKey>
-                <EKey>5 -68.06134 -70.65415 110.815292</EKey>
-                <EKey>10 -81.99222 -71.78577 97.8292542</EKey>
-                <EKey>4 -134.677963 -65.9025 49.3128853</EKey>
-                <EKey>2 -139.64386 -63.52392 43.9954224</EKey>
-                <EKey>2 -136.15564 -64.45228 45.8851</EKey>
-                <EKey>4 -118.873886 -68.76997 58.5305557</EKey>
-                <EKey>2 -52.0650024 -70.64866 113.984894</EKey>
-                <EKey>4 -36.4037552 -67.81964 127.146713</EKey>
-                <EKey>10 -33.40444 -66.1387 131.491867</EKey>
-                <EKey>1 -55.0643158 -68.57221 122.048981</EKey>
+                <EKey>6 -78.96544 -71.64294 100.487984</EKey>
+                <EKey>8 -93.87961 -71.85718 83.09636</EKey>
+                <EKey>4 -138.072784 -60.0412 37.93637</EKey>
+                <EKey>9 -138.644089 -58.11856 35.2886238</EKey>
+                <EKey>15 -128.487061 -62.04074 39.7546349</EKey>
+                <EKey>6 -124.5539 -63.9688721 43.02861</EKey>
+                <EKey>1 -128.487061 -62.04074 39.7546349</EKey>
+                <EKey>3 -131.612732 -60.11261 36.980545</EKey>
+                <EKey>1 -144.983292 -46.95079 26.0379944</EKey>
+                <EKey>3 -146.790573 -44.51728 24.8679333</EKey>
+                <EKey>24 -147.262985 -45.33028 25.3678188</EKey>
+                <EKey>4 -91.71526 -71.93408 86.04074</EKey>
+                <EKey>1 -71.82422 -71.1320648 106.794235</EKey>
             </Bone>
             <Bone>
-                <EKey>3 -51.5431442 -67.58892 -27.85626</EKey>
-                <EKey>3 -50.46647 -58.08011 -45.0830841</EKey>
-                <EKey>3 -39.4360275 -42.60563 -55.10826</EKey>
-                <EKey>3 -24.4669266 -25.785305 -60.5795364</EKey>
-                <EKey>2 -8.60792 -12.1345844 -64.45777</EKey>
-                <EKey>3 5.762417 -6.75120163 -67.0341</EKey>
-                <EKey>4 32.0256348 -4.812085 -69.6983261</EKey>
-                <EKey>2 71.2584152 -4.114443 -69.45113</EKey>
-                <EKey>1 87.58434 -3.59258413 -67.3527145</EKey>
-                <EKey>1 93.94003 -3.44426632 -65.85306</EKey>
-                <EKey>1 96.41749 -4.015564 -63.9249268</EKey>
-                <EKey>1 93.62142 -5.94918728 -61.3705635</EKey>
-                <EKey>2 86.98009 -9.1847105 -58.3053322</EKey>
-                <EKey>2 67.20439 -17.9354534 -52.11444</EKey>
-                <EKey>1 46.2970924 -25.301899 -47.4671555</EKey>
-                <EKey>1 38.7219048 -27.0487518 -45.1819649</EKey>
-                <EKey>1 35.881897 -26.9059277 -41.55642</EKey>
-                <EKey>2 36.37629 -24.7525749 -34.8656425</EKey>
-                <EKey>1 38.3868179 -19.1494617 -15.6832228</EKey>
-                <EKey>1 42.0618 -18.3254757 -7.76745272</EKey>
-                <EKey>1 48.57679 -20.2206459 -3.09269857</EKey>
-                <EKey>1 52.5264359 -25.1041431 -1.351339</EKey>
-                <EKey>1 49.8677025 -30.3666744 -0.7360952</EKey>
-                <EKey>2 42.5342178 -34.2284279 -0.9063859</EKey>
-                <EKey>3 26.99382 -38.9745941 -7.94872952</EKey>
-                <EKey>2 2.80704975 -40.0292969 -22.6431675</EKey>
-                <EKey>2 -6.97093153 -39.6337852 -30.8116264</EKey>
-                <EKey>3 -9.525291 -40.6665154 -35.7830162</EKey>
-                <EKey>3 -5.471275 -44.0668335 -36.7608147</EKey>
-                <EKey>1 1.96658278 -47.42321 -32.5200272</EKey>
+                <EKey>2 4.0650034 -46.0828552 -15.7381554</EKey>
+                <EKey>1 29.493248 -41.4959946 26.4939346</EKey>
+                <EKey>1 40.87526 -34.68986 45.4731064</EKey>
+                <EKey>1 49.65347 -26.471962 59.37102</EKey>
+                <EKey>1 55.8223839 -18.8693066 67.56695</EKey>
+                <EKey>2 59.6621666 -13.8539715 69.98947</EKey>
+                <EKey>3 64.29847 -8.003662 64.48524</EKey>
+                <EKey>3 71.95056 -3.125658 45.87961</EKey>
+                <EKey>2 84.55756 -3.26848245 26.3950558</EKey>
+                <EKey>3 93.22591 -6.14145136 17.91348</EKey>
+                <EKey>3 107.607231 -19.9624634 7.78942537</EKey>
+                <EKey>3 121.03273 -41.369648 3.97711158</EKey>
+                <EKey>2 135.139389 -61.1673164 9.20119</EKey>
+                <EKey>4 144.8954 -68.33051 15.6722364</EKey>
+                <EKey>5 160.693985 -72.5163651 25.2195015</EKey>
+                <EKey>5 171.999084 -71.63195 29.663538</EKey>
+                <EKey>4 169.46669 -68.78645 25.543602</EKey>
+                <EKey>3 159.188828 -67.66033 20.6546116</EKey>
+                <EKey>1 144.8954 -68.33051 15.6722364</EKey>
+                <EKey>1 126.58091 -68.945755 8.476082</EKey>
+                <EKey>1 91.27032 -66.39689 -4.99336243</EKey>
+                <EKey>1 57.4319077 -58.4646378 -11.7994967</EKey>
+                <EKey>1 32.5694656 -48.653698 -10.2009611</EKey>
+                <EKey>1 16.9521637 -41.4959946 -5.778897</EKey>
+                <EKey>1 7.14671564 -38.0517273 -1.373312</EKey>
+                <EKey>1 -1.82925153 -36.5410843 2.46646833</EKey>
+                <EKey>2 -10.3712521 -36.5795364 4.878004</EKey>
+                <EKey>2 -26.1149 -38.40879 4.77363253</EKey>
+                <EKey>2 -36.6564445 -39.5678635 3.79034114</EKey>
+                <EKey>3 -38.9965668 -41.2213326 8.783704</EKey>
+                <EKey>2 -30.7951469 -44.7315178 22.6926079</EKey>
+                <EKey>2 -21.5774784 -45.8411522 31.1686878</EKey>
+                <EKey>1 -15.5513849 -46.68162 33.90982</EKey>
+                <EKey>1 -14.8482494 -47.07164 33.65713</EKey>
+                <EKey>4 -18.3749142 -46.6871147 32.57496</EKey>
+                <EKey>3 -32.2618446 -44.083313 38.01877</EKey>
+                <EKey>2 -38.25498 -41.7486839 43.0725555</EKey>
+                <EKey>3 -39.9743652 -39.4634933 44.81941</EKey>
+                <EKey>1 -41.375145 -34.14603 43.1165</EKey>
+                <EKey>1 -41.8146 -31.9926758 42.1222229</EKey>
             </Bone>
             <Bone>
-                <EKey>17 0 0 -83.42046</EKey>
-                <EKey>13 0 0 -78.05356</EKey>
-                <EKey>4 0 0 -80.2178955</EKey>
-                <EKey>6 0 0 -76.81209</EKey>
-                <EKey>2 0 0 -55.520256</EKey>
-                <EKey>4 0 0 -54.1854</EKey>
-                <EKey>7 0 0 -63.1943245</EKey>
-                <EKey>3 0 0 -90.89128</EKey>
-                <EKey>1 0 0 -103.0753</EKey>
+                <EKey>4 0 0 -91.23735</EKey>
+                <EKey>1 0 0 -60.71687</EKey>
+                <EKey>1 0 0 -55.0478363</EKey>
+                <EKey>2 0 0 -51.73541</EKey>
+                <EKey>3 0 0 -50.2577248</EKey>
+                <EKey>8 0 0 -54.2128639</EKey>
+                <EKey>6 0 0 -73.01076</EKey>
+                <EKey>5 0 0 -88.49622</EKey>
+                <EKey>11 0 0 -93.11604</EKey>
+                <EKey>17 0 0 -92.5612259</EKey>
+                <EKey>2 0 0 -89.8201</EKey>
+                <EKey>3 0 0 -85.47494</EKey>
+                <EKey>7 0 0 -72.53834</EKey>
+                <EKey>1 0 0 -34.6623955</EKey>
+                <EKey>3 0 0 -34.332798</EKey>
+                <EKey>6 0 0 -43.57244</EKey>
+                <EKey>4 0 0 -55.7015343</EKey>
+                <EKey>1 0 0 -60.80476</EKey>
             </Bone>
             <Bone>
-                <EKey>56 89.9519348 0 -4.268254</EKey>
-                <EKey>1 89.9519348 -0.0164797436 7.4268713</EKey>
+                <EKey>4 144.41748 1.52162969 30.61387</EKey>
+                <EKey>1 112.358894 -20.737011 36.398262</EKey>
+                <EKey>1 106.13504 -25.0272369 35.6896324</EKey>
+                <EKey>2 102.317238 -27.4387741 34.4975967</EKey>
+                <EKey>3 100.328682 -28.2133217 31.3774319</EKey>
+                <EKey>4 104.596931 -24.9283581 26.2906837</EKey>
+                <EKey>4 114.935226 -18.8857861 22.6706333</EKey>
+                <EKey>6 125.954681 -12.3433275 25.2195015</EKey>
+                <EKey>4 141.736786 -0.670176268 30.08652</EKey>
+                <EKey>8 145.7963 2.614786 30.7237358</EKey>
+                <EKey>12 146.730148 3.350881 30.78416</EKey>
+                <EKey>4 144.549332 1.58754861 30.66331</EKey>
+                <EKey>6 144.41748 1.52162969 30.61387</EKey>
+                <EKey>9 136.227051 -2.0105288 26.97734</EKey>
+                <EKey>11 113.622337 -10.3987179 19.8306255</EKey>
+                <EKey>5 82.81621 -16.0402832 6.85008</EKey>
+                <EKey>1 89.19386 -11.5248337 3.75188828</EKey>
             </Bone>
         </Rotations>
         <PositionOffset>
@@ -610,317 +726,622 @@
         </PositionOffset>
         <Positions>
             <Position>
-                <Height>17.25</Height>
-                <YOffset>0.19</YOffset>
-            </Position>
-            <Position>
                 <Height>17.67</Height>
-                <YOffset>0.19</YOffset>
+                <YOffset>-0.83</YOffset>
             </Position>
             <Position>
-                <Height>18.039999</Height>
-                <YOffset>0.19</YOffset>
+                <Height>17.07</Height>
+                <YOffset>-0.83</YOffset>
             </Position>
             <Position>
-                <Height>18.18</Height>
-                <YOffset>0.5</YOffset>
+                <Height>16.289999</Height>
+                <YOffset>-0.83</YOffset>
             </Position>
             <Position>
-                <Height>18.13</Height>
-                <YOffset>1.01</YOffset>
-            </Position>
-            <Position>
-                <Height>17.89</Height>
-                <YOffset>1.67</YOffset>
-            </Position>
-            <Position>
-                <Height>17.58</Height>
-                <YOffset>2.32</YOffset>
-            </Position>
-            <Position>
-                <Height>17.17</Height>
-                <YOffset>2.97</YOffset>
-            </Position>
-            <Position>
-                <Height>16.6099987</Height>
-                <YOffset>3.64999986</YOffset>
-            </Position>
-            <Position>
-                <Height>15.82</Height>
-                <YOffset>4.42</YOffset>
+                <Height>15.46</Height>
+                <YOffset>-0.83</YOffset>
             </Position>
             <Position>
                 <Height>14.82</Height>
-                <YOffset>5.38</YOffset>
+                <YOffset>-0.83</YOffset>
             </Position>
             <Position>
-                <Height>13.4299994</Height>
-                <YOffset>6.75999975</YOffset>
-            </Position>
-            <Position>
-                <Height>11.4299994</Height>
-                <YOffset>8.679999</YOffset>
-            </Position>
-            <Position>
-                <Height>9.59</Height>
-                <YOffset>10.8899994</YOffset>
-            </Position>
-            <Position>
-                <Height>8.69</Height>
-                <YOffset>12.3</YOffset>
-            </Position>
-            <Position>
-                <Height>8.16</Height>
-                <YOffset>13.2199993</YOffset>
-            </Position>
-            <Position>
-                <Height>8.65</Height>
-                <YOffset>13.07</YOffset>
-            </Position>
-            <Position>
-                <Height>9.88</Height>
-                <YOffset>12.86</YOffset>
-            </Position>
-            <Position>
-                <Height>10.38</Height>
-                <YOffset>12.73</YOffset>
-            </Position>
-            <Position>
-                <Height>10.46</Height>
-                <YOffset>12.69</YOffset>
-            </Position>
-            <Position>
-                <Height>10.65</Height>
-                <YOffset>12.74</YOffset>
-            </Position>
-            <Position>
-                <Height>11.4699993</Height>
-                <YOffset>12.84</YOffset>
-            </Position>
-            <Position>
-                <Height>12.3499994</Height>
-                <YOffset>12.79</YOffset>
-            </Position>
-            <Position>
-                <Height>13.09</Height>
-                <YOffset>12.54</YOffset>
-            </Position>
-            <Position>
-                <Height>13.07</Height>
-                <YOffset>12.38</YOffset>
-            </Position>
-            <Position>
-                <Height>12.07</Height>
-                <YOffset>12.16</YOffset>
-            </Position>
-            <Position>
-                <Height>12.3</Height>
-                <YOffset>11.8099995</YOffset>
-            </Position>
-            <Position>
-                <Height>13.0199995</Height>
-                <YOffset>11.13</YOffset>
-            </Position>
-            <Position>
-                <Height>14.0099993</Height>
-                <YOffset>9.98</YOffset>
-            </Position>
-            <Position>
-                <Height>16.51</Height>
-                <YOffset>6.96</YOffset>
-            </Position>
-            <Position>
-                <Height>18.85</Height>
-                <YOffset>3.62</YOffset>
-            </Position>
-            <Position>
-                <Height>19.43</Height>
-                <YOffset>1.33999991</YOffset>
-            </Position>
-            <Position>
-                <Height>19.66</Height>
-                <YOffset>-0.06</YOffset>
-            </Position>
-            <Position>
-                <Height>19.6099987</Height>
-                <YOffset>-0.47</YOffset>
-            </Position>
-            <Position>
-                <Height>19.41</Height>
-                <YOffset>-0.859999955</YOffset>
-            </Position>
-            <Position>
-                <Height>18.97</Height>
-                <YOffset>-0.95</YOffset>
-            </Position>
-            <Position>
-                <Height>17.77</Height>
-                <YOffset>-0.96</YOffset>
-            </Position>
-            <Position>
-                <Height>16.44</Height>
-                <YOffset>-0.96</YOffset>
-            </Position>
-            <Position>
-                <Height>15.94</Height>
-                <YOffset>-0.96</YOffset>
-            </Position>
-            <Position>
-                <Height>15.1399994</Height>
-                <YOffset>-0.96</YOffset>
-            </Position>
-            <Position>
-                <Height>14.7999992</Height>
-                <YOffset>-0.96</YOffset>
+                <Height>14.71</Height>
+                <YOffset>-0.84</YOffset>
             </Position>
             <Position>
                 <Height>14.9299994</Height>
-                <YOffset>-0.96</YOffset>
+                <YOffset>-0.859999955</YOffset>
             </Position>
             <Position>
-                <Height>15.2699995</Height>
-                <YOffset>-0.96</YOffset>
+                <Height>15.3399992</Height>
+                <YOffset>-0.82</YOffset>
             </Position>
             <Position>
-                <Height>15.69</Height>
-                <YOffset>-0.96</YOffset>
+                <Height>15.83</Height>
+                <YOffset>-0.799999952</YOffset>
             </Position>
             <Position>
-                <Height>15.99</Height>
-                <YOffset>-0.9</YOffset>
+                <Height>16.42</Height>
+                <YOffset>-0.849999964</YOffset>
             </Position>
             <Position>
-                <Height>16.1999989</Height>
-                <YOffset>-0.9</YOffset>
+                <Height>17.06</Height>
+                <YOffset>-0.78</YOffset>
             </Position>
             <Position>
-                <Height>16.2799988</Height>
-                <YOffset>-0.89</YOffset>
-            </Position>
-            <Position>
-                <Height>16.17</Height>
-                <YOffset>-0.74</YOffset>
-            </Position>
-            <Position>
-                <Height>16.21</Height>
-                <YOffset>-0.77</YOffset>
-            </Position>
-            <Position>
-                <Height>16.16</Height>
-                <YOffset>-0.65</YOffset>
-            </Position>
-            <Position>
-                <Height>16.18</Height>
+                <Height>17.6199989</Height>
                 <YOffset>-0.48999998</YOffset>
             </Position>
             <Position>
-                <Height>16.55</Height>
-                <YOffset>-0.599999964</YOffset>
+                <Height>18.15</Height>
+                <YOffset>-0.179999992</YOffset>
             </Position>
             <Position>
-                <Height>16.91</Height>
-                <YOffset>-0.61</YOffset>
+                <Height>18.6099987</Height>
+                <YOffset>0.31</YOffset>
             </Position>
             <Position>
-                <Height>16.84</Height>
-                <YOffset>-0.229999989</YOffset>
+                <Height>19.35</Height>
+                <YOffset>0.98999995</YOffset>
             </Position>
             <Position>
-                <Height>17.1099987</Height>
-                <YOffset>-0.269999981</YOffset>
+                <Height>20.09</Height>
+                <YOffset>1.82999992</YOffset>
             </Position>
             <Position>
-                <Height>17.42</Height>
-                <YOffset>-0.52</YOffset>
+                <Height>20.3699989</Height>
+                <YOffset>2.79</YOffset>
             </Position>
             <Position>
-                <Height>17.59</Height>
-                <YOffset>-0.78</YOffset>
+                <Height>20.43</Height>
+                <YOffset>3.82</YOffset>
+            </Position>
+            <Position>
+                <Height>20.289999</Height>
+                <YOffset>4.9</YOffset>
+            </Position>
+            <Position>
+                <Height>20.01</Height>
+                <YOffset>6.00999975</YOffset>
+            </Position>
+            <Position>
+                <Height>19.6099987</Height>
+                <YOffset>7.10999966</YOffset>
+            </Position>
+            <Position>
+                <Height>19.15</Height>
+                <YOffset>8.16</YOffset>
+            </Position>
+            <Position>
+                <Height>18.63</Height>
+                <YOffset>9.13</YOffset>
+            </Position>
+            <Position>
+                <Height>18.13</Height>
+                <YOffset>9.99</YOffset>
+            </Position>
+            <Position>
+                <Height>17.67</Height>
+                <YOffset>10.66</YOffset>
+            </Position>
+            <Position>
+                <Height>17.31</Height>
+                <YOffset>11.12</YOffset>
+            </Position>
+            <Position>
+                <Height>17.06</Height>
+                <YOffset>11.37</YOffset>
+            </Position>
+            <Position>
+                <Height>16.88</Height>
+                <YOffset>11.4699993</YOffset>
+            </Position>
+            <Position>
+                <Height>16.72</Height>
+                <YOffset>11.46</YOffset>
+            </Position>
+            <Position>
+                <Height>16.539999</Height>
+                <YOffset>11.3899994</YOffset>
+            </Position>
+            <Position>
+                <Height>16.31</Height>
+                <YOffset>11.28</YOffset>
+            </Position>
+            <Position>
+                <Height>16</Height>
+                <YOffset>11.17</YOffset>
+            </Position>
+            <Position>
+                <Height>15.65</Height>
+                <YOffset>11.03</YOffset>
+            </Position>
+            <Position>
+                <Height>15.38</Height>
+                <YOffset>10.74</YOffset>
+            </Position>
+            <Position>
+                <Height>15.0999994</Height>
+                <YOffset>10.3899994</YOffset>
+            </Position>
+            <Position>
+                <Height>14.8099995</Height>
+                <YOffset>9.98</YOffset>
+            </Position>
+            <Position>
+                <Height>14.53</Height>
+                <YOffset>9.5199995</YOffset>
+            </Position>
+            <Position>
+                <Height>14.24</Height>
+                <YOffset>9.01</YOffset>
+            </Position>
+            <Position>
+                <Height>13.96</Height>
+                <YOffset>8.45</YOffset>
+            </Position>
+            <Position>
+                <Height>13.69</Height>
+                <YOffset>7.83999968</YOffset>
+            </Position>
+            <Position>
+                <Height>13.44</Height>
+                <YOffset>7.18</YOffset>
+            </Position>
+            <Position>
+                <Height>13.19</Height>
+                <YOffset>6.48</YOffset>
+            </Position>
+            <Position>
+                <Height>12.9699993</Height>
+                <YOffset>5.58</YOffset>
+            </Position>
+            <Position>
+                <Height>12.78</Height>
+                <YOffset>4.39</YOffset>
+            </Position>
+            <Position>
+                <Height>12.61</Height>
+                <YOffset>3.04</YOffset>
+            </Position>
+            <Position>
+                <Height>12.45</Height>
+                <YOffset>1.69999993</YOffset>
+            </Position>
+            <Position>
+                <Height>12.2599993</Height>
+                <YOffset>0.48</YOffset>
+            </Position>
+            <Position>
+                <Height>12.05</Height>
+                <YOffset>-0.459999979</YOffset>
+            </Position>
+            <Position>
+                <Height>11.92</Height>
+                <YOffset>-1.12</YOffset>
+            </Position>
+            <Position>
+                <Height>11.75</Height>
+                <YOffset>-1.65</YOffset>
+            </Position>
+            <Position>
+                <Height>11.46</Height>
+                <YOffset>-1.81999993</YOffset>
+            </Position>
+            <Position>
+                <Height>10.82</Height>
+                <YOffset>-1.64</YOffset>
+            </Position>
+            <Position>
+                <Height>9.849999</Height>
+                <YOffset>-1.09</YOffset>
+            </Position>
+            <Position>
+                <Height>9.13</Height>
+                <YOffset>-0.399999976</YOffset>
+            </Position>
+            <Position>
+                <Height>8.98</Height>
+                <YOffset>0.179999992</YOffset>
+            </Position>
+            <Position>
+                <Height>9.05</Height>
+                <YOffset>0.59</YOffset>
+            </Position>
+            <Position>
+                <Height>9.26</Height>
+                <YOffset>0.84</YOffset>
+            </Position>
+            <Position>
+                <Height>9.5199995</Height>
+                <YOffset>1.01</YOffset>
+            </Position>
+            <Position>
+                <Height>9.71</Height>
+                <YOffset>1.1</YOffset>
+            </Position>
+            <Position>
+                <Height>9.78</Height>
+                <YOffset>1.12</YOffset>
+            </Position>
+            <Position>
+                <Height>9.65</Height>
+                <YOffset>1.06999993</YOffset>
+            </Position>
+            <Position>
+                <Height>9.36</Height>
+                <YOffset>0.909999967</YOffset>
+            </Position>
+            <Position>
+                <Height>8.96</Height>
+                <YOffset>0.68</YOffset>
+            </Position>
+            <Position>
+                <Height>8.48</Height>
+                <YOffset>0.39</YOffset>
+            </Position>
+            <Position>
+                <Height>8.09</Height>
+                <YOffset>-0.07</YOffset>
+            </Position>
+            <Position>
+                <Height>7.6699996</Height>
+                <YOffset>-0.539999962</YOffset>
+            </Position>
+            <Position>
+                <Height>7.39999962</Height>
+                <YOffset>-0.909999967</YOffset>
+            </Position>
+            <Position>
+                <Height>7.29</Height>
+                <YOffset>-1.16</YOffset>
+            </Position>
+            <Position>
+                <Height>7.16</Height>
+                <YOffset>-1.27</YOffset>
+            </Position>
+            <Position>
+                <Height>7.00999975</Height>
+                <YOffset>-1.27</YOffset>
+            </Position>
+            <Position>
+                <Height>6.89</Height>
+                <YOffset>-1.25</YOffset>
+            </Position>
+            <Position>
+                <Height>6.83999968</Height>
+                <YOffset>-1.22</YOffset>
+            </Position>
+            <Position>
+                <Height>6.83999968</Height>
+                <YOffset>-1.23</YOffset>
+            </Position>
+            <Position>
+                <Height>6.93</Height>
+                <YOffset>-1.32999992</YOffset>
+            </Position>
+            <Position>
+                <Height>6.87</Height>
+                <YOffset>-1.31</YOffset>
+            </Position>
+            <Position>
+                <Height>6.83999968</Height>
+                <YOffset>-1.20999992</YOffset>
+            </Position>
+            <Position>
+                <Height>6.93</Height>
+                <YOffset>-1.18999994</YOffset>
+            </Position>
+            <Position>
+                <Height>7.04999971</Height>
+                <YOffset>-1.18</YOffset>
+            </Position>
+            <Position>
+                <Height>7.00999975</Height>
+                <YOffset>-1.22</YOffset>
+            </Position>
+            <Position>
+                <Height>6.95</Height>
+                <YOffset>-1.24</YOffset>
+            </Position>
+            <Position>
+                <Height>6.87999964</Height>
+                <YOffset>-1.24</YOffset>
+            </Position>
+            <Position>
+                <Height>6.77</Height>
+                <YOffset>-1.20999992</YOffset>
+            </Position>
+            <Position>
+                <Height>6.72</Height>
+                <YOffset>-1.22</YOffset>
+            </Position>
+            <Position>
+                <Height>6.62999964</Height>
+                <YOffset>-1.22</YOffset>
+            </Position>
+            <Position>
+                <Height>6.52999973</Height>
+                <YOffset>-1.20999992</YOffset>
             </Position>
         </Positions>
         <ThrowSource />
         <SelfDamage />
         <Attacks>
             <Attack>
-                <Start>24</Start>
-                <End>33</End>
-                <Bones>LeftThigh LeftCalf LeftFoot RightThigh RightCalf RightFoot</Bones>
-                <Flags>Unblockable High</Flags>
-                <Knockback>4</Knockback>
-                <HitPoints>10</HitPoints>
+                <Start>8</Start>
+                <End>49</End>
+                <Bones>Mid Chest RightWrist RightFist</Bones>
+                <Flags>Unblockable</Flags>
+                <Knockback>8</Knockback>
+                <HitPoints>20</HitPoints>
                 <HitType>KnockdownHead</HitType>
-                <HitLength>5</HitLength>
-                <StunLength>8</StunLength>
+                <HitLength>10</HitLength>
+                <StunLength>10</StunLength>
                 <StaggerLength>0</StaggerLength>
                 <Extents>
                     <Extent>
-                        <Angle>23.615469</Angle>
-                        <Length>3.18999982</Length>
-                        <MinY>15.0099993</MinY>
-                        <MaxY>25.39725</MaxY>
+                        <Angle>351.397522</Angle>
+                        <Length>7.39</Length>
+                        <MinY>5.33999968</MinY>
+                        <MaxY>13.28</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>13.31014</Angle>
-                        <Length>5.66</Length>
-                        <MinY>14.13</MinY>
-                        <MaxY>24.1099987</MaxY>
+                        <Angle>0.0769054741</Angle>
+                        <Length>8.48</Length>
+                        <MinY>6.89</MinY>
+                        <MaxY>13.91</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>9.305562</Angle>
-                        <Length>7.85999966</Length>
-                        <MinY>13.32</MinY>
-                        <MaxY>23.539999</MaxY>
+                        <Angle>5.943694</Angle>
+                        <Length>9.42</Length>
+                        <MinY>8.79</MinY>
+                        <MaxY>14.57</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>7.20164776</Angle>
-                        <Length>9.84</Length>
-                        <MinY>12.36</MinY>
-                        <MaxY>23.6</MaxY>
+                        <Angle>13.3925381</Angle>
+                        <Length>9.78</Length>
+                        <MinY>10.11</MinY>
+                        <MaxY>15.24</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>6.35019445</Angle>
-                        <Length>10.91</Length>
-                        <MinY>10.8099995</MinY>
-                        <MaxY>23.49</MaxY>
+                        <Angle>19.775692</Angle>
+                        <Length>9.46</Length>
+                        <MinY>10.87</MinY>
+                        <MaxY>15.91</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>6.41611338</Angle>
-                        <Length>10.7199993</Length>
-                        <MinY>7.00999975</MinY>
+                        <Angle>25.08217</Angle>
+                        <Length>8.62</Length>
+                        <MinY>11.66</MinY>
+                        <MaxY>18.27</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>21.63241</Angle>
+                        <Length>7.83</Length>
+                        <MinY>12.46</MinY>
+                        <MaxY>20.33</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>24.3295956</Angle>
+                        <Length>7.31</Length>
+                        <MinY>13.25</MinY>
+                        <MaxY>21.8699989</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>26.1918068</Angle>
+                        <Length>6.92</Length>
+                        <MinY>14.03</MinY>
                         <MaxY>23.06</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>7.28404665</Angle>
-                        <Length>9.469999</Length>
-                        <MinY>3.76</MinY>
-                        <MaxY>22.1899986</MaxY>
+                        <Angle>27.8178082</Angle>
+                        <Length>6.58</Length>
+                        <MinY>14.7999992</MinY>
+                        <MaxY>24.15</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>8.756237</Angle>
-                        <Length>8</Length>
-                        <MinY>1.66</MinY>
-                        <MaxY>20.66</MaxY>
+                        <Angle>29.1801319</Angle>
+                        <Length>6.27</Length>
+                        <MinY>15.54</MinY>
+                        <MaxY>25.14</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>348.3543</Angle>
-                        <Length>8.87</Length>
-                        <MinY>0.48</MinY>
-                        <MaxY>17.98</MaxY>
+                        <Angle>30.2623024</Angle>
+                        <Length>6</Length>
+                        <MinY>16.25</MinY>
+                        <MaxY>25.98</MaxY>
                     </Extent>
                     <Extent>
-                        <Angle>355.561432</Angle>
-                        <Length>10.3</Length>
-                        <MinY>0.286015928</MinY>
-                        <MaxY>14.09</MaxY>
+                        <Angle>34.43168</Angle>
+                        <Length>5.77</Length>
+                        <MinY>16.92</MinY>
+                        <MaxY>26.71</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>31.3939114</Angle>
+                        <Length>5.56999969</Length>
+                        <MinY>17.539999</MinY>
+                        <MaxY>27.3</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>31.1961555</Angle>
+                        <Length>5.47</Length>
+                        <MinY>18.09</MinY>
+                        <MaxY>27.76</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>25.1480885</Angle>
+                        <Length>5.42</Length>
+                        <MinY>18.56</MinY>
+                        <MaxY>28.0999985</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>24.1812763</Angle>
+                        <Length>5.49</Length>
+                        <MinY>18.93</MinY>
+                        <MaxY>28.31</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>23.038681</Angle>
+                        <Length>5.58999968</Length>
+                        <MinY>19.17</MinY>
+                        <MaxY>28.3910961</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>21.7477684</Angle>
+                        <Length>5.71</Length>
+                        <MinY>19.3</MinY>
+                        <MaxY>28.3699989</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>20.3250179</Angle>
+                        <Length>5.83999968</Length>
+                        <MinY>19.33</MinY>
+                        <MaxY>28.2699986</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>18.8967724</Angle>
+                        <Length>5.98</Length>
+                        <MinY>19.25</MinY>
+                        <MaxY>28.0999985</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>17.6113529</Angle>
+                        <Length>6.1</Length>
+                        <MinY>19.07</MinY>
+                        <MaxY>27.83</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>16.49073</Angle>
+                        <Length>6.21</Length>
+                        <MinY>18.81</MinY>
+                        <MaxY>27.49</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>15.4964523</Angle>
+                        <Length>6.31999969</Length>
+                        <MinY>18.4499989</MinY>
+                        <MaxY>27.06</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>14.6010532</Angle>
+                        <Length>6.43</Length>
+                        <MinY>18.01</MinY>
+                        <MaxY>26.55</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>13.8100252</Angle>
+                        <Length>6.54</Length>
+                        <MinY>17.5</MinY>
+                        <MaxY>25.98</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>13.1178761</Angle>
+                        <Length>6.64</Length>
+                        <MinY>16.92</MinY>
+                        <MaxY>25.34</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.851685</Angle>
+                        <Length>6.75</Length>
+                        <MinY>16.2799988</MinY>
+                        <MaxY>24.65</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.500122</Angle>
+                        <Length>6.85999966</Length>
+                        <MinY>15.57</MinY>
+                        <MaxY>23.9</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.263916</Angle>
+                        <Length>6.96</Length>
+                        <MinY>14.82</MinY>
+                        <MaxY>23.1</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.14856</Angle>
+                        <Length>7.06</Length>
+                        <MinY>14.0199995</MinY>
+                        <MaxY>22.26</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.137573</Angle>
+                        <Length>7.16</Length>
+                        <MinY>13.1799994</MinY>
+                        <MaxY>21.38</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.241943</Angle>
+                        <Length>7.25</Length>
+                        <MinY>12.3099995</MinY>
+                        <MaxY>20.47</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.450684</Angle>
+                        <Length>7.33999968</Length>
+                        <MinY>11.4</MinY>
+                        <MaxY>19.5299988</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>359.9121</Angle>
+                        <Length>7.4199996</Length>
+                        <MinY>10.3099995</MinY>
+                        <MaxY>18.41</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>0.670176268</Angle>
+                        <Length>7.48</Length>
+                        <MinY>8.96</MinY>
+                        <MaxY>17.05</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>1.58205545</Angle>
+                        <Length>7.52999973</Length>
+                        <MinY>7.48</MinY>
+                        <MaxY>15.5499992</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>2.51590753</Angle>
+                        <Length>7.58</Length>
+                        <MinY>6.00999975</MinY>
+                        <MaxY>14.0499992</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>3.33440137</Angle>
+                        <Length>7.64</Length>
+                        <MinY>4.66</MinY>
+                        <MaxY>12.66</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>3.93865871</Angle>
+                        <Length>7.71</Length>
+                        <MinY>3.56</MinY>
+                        <MaxY>11.5099993</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>4.2298007</Angle>
+                        <Length>7.79</Length>
+                        <MinY>2.83</MinY>
+                        <MaxY>10.73</MaxY>
+                    </Extent>
+                    <Extent>
+                        <Angle>5.5371933</Angle>
+                        <Length>8.099999</Length>
+                        <MinY>2.485192</MinY>
+                        <MaxY>10.05</MaxY>
                     </Extent>
                 </Extents>
             </Attack>
         </Attacks>
         <AttackRing>
-            <Length>34.0280876</Length>
-            <Length>34.0280876</Length>
-            <Length>34.0280876</Length>
-            <Length>30.9328041</Length>
+            <Length>32.8707047</Length>
+            <Length>32.8707047</Length>
+            <Length>32.8707047</Length>
+            <Length>32.8707047</Length>
+            <Length>20.6433849</Length>
             <Length>0</Length>
             <Length>0</Length>
             <Length>0</Length>
@@ -946,13 +1367,12 @@
             <Length>0</Length>
             <Length>0</Length>
             <Length>0</Length>
-            <Length>0</Length>
-            <Length>0</Length>
-            <Length>0</Length>
-            <Length>0</Length>
-            <Length>34.0280876</Length>
-            <Length>34.0280876</Length>
-            <Length>34.0280876</Length>
+            <Length>3.67170572</Length>
+            <Length>8.725296</Length>
+            <Length>10.7199574</Length>
+            <Length>32.206234</Length>
+            <Length>32.8707047</Length>
+            <Length>32.8707047</Length>
         </AttackRing>
     </Animation>
 </Oni>
