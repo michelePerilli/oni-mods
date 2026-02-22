@@ -11,11 +11,11 @@
 | [TCSCOMcomb_k_k_k](TCTFagent/animations/TRAMTCSCOMcomb_k_k_k.xml)             | COMCOMkick_fw     | 🟢 |
 | [TCSCOMcomb_k_k_kfw](TCTFagent/animations/TRAMTCSCOMcomb_k_k_kfw.xml)         | MUROrun_kick      | 🟢 |
 | [TCSCOMcomb_k_k_p](TCTFagent/animations/TRAMTCSCOMcomb_k_k_p.xml)             | TANKERrun_punch   | 🟢 |
-| [TCSCOMcomb_k_p](TCTFagent/animations/TRAMTCSCOMcomb_k_p.xml)                 | ELICOMpunch_low   | 🟡 |
-| [TCSCOMcomb_k_p_k](TCTFagent/animations/TRAMTCSCOMcomb_k_p_k.xml)             | TANCOMkick_heavy  | 🟡 |
-| [TCSCOMcomb_k_p_p](TCTFagent/animations/TRAMTCSCOMcomb_k_p_p.xml)             | STRCOMkick_heavy  | 🟢 |
+| [TCSCOMcomb_k_p](TCTFagent/animations/TRAMTCSCOMcomb_k_p.xml)                 | COMCOMpunch_low   | 🟢 |
+| [TCSCOMcomb_k_p_k](TCTFagent/animations/TRAMTCSCOMcomb_k_p_k.xml)             | COMCOMrun_kick    | 🟢 |
+| [TCSCOMcomb_k_p_p](TCTFagent/animations/TRAMTCSCOMcomb_k_p_p.xml)             | ELITErun_punch2   | 🟢 |
 | [TCSCOMcomb_p](TCTFagent/animations/TRAMTCSCOMcomb_p.xml)                     | STRCOMcomb_p      | 🟢 |
-| [TCSCOMcomb_p_k](TCTFagent/animations/TRAMTCSCOMcomb_p_k.xml)                 | STRCOMcomb_k_k    | 🟢 |
+| [TCSCOMcomb_p_k](TCTFagent/animations/TRAMTCSCOMcomb_p_k.xml)                 | COMCOMcomb_k      | 🟢 |
 | [TCSCOMcomb_p_k_k](TCTFagent/animations/TRAMTCSCOMcomb_p_k_k.xml)             | STRCOMkick_fw     | 🟢 |
 | [TCSCOMcomb_p_k_p](TCTFagent/animations/TRAMTCSCOMcomb_p_k_p.xml)             | STRCOMpunch_fw    | 🟢 |
 | [TCSCOMcomb_p_p](TCTFagent/animations/TRAMTCSCOMcomb_p_p.xml)                 | STRCOMcomb_p_p    | 🟢 |
