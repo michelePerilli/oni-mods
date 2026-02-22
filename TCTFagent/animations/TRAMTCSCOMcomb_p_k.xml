@@ -25,7 +25,7 @@
         </Overlay>
         <DirectAnimations>
             <Link>TRAMTCSCOMcomb_p_k_k</Link>
-            <Link />
+            <Link>TRAMTCSCOMcomb_p_k_p</Link>
         </DirectAnimations>
         <Pause>
             <Hard>0</Hard>

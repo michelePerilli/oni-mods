@@ -39,7 +39,7 @@
         <Direction>Forward</Direction>
         <Vocalization>65535</Vocalization>
         <ActionFrame>65535</ActionFrame>
-        <Impact>murflash1</Impact>
+        <Impact>swtflash1</Impact>
         <Particles>
             <Particle>
                 <Start>0</Start>

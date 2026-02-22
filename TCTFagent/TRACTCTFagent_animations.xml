@@ -49,6 +49,8 @@
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMkick_heavy</Animation>
             </TRACAnimation>
+
+            <!--BASIC COMBOS-->
             <TRACAnimation>
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMcomb_p</Animation>
@@ -59,11 +61,43 @@
             </TRACAnimation>
             <TRACAnimation>
                 <Weight>100</Weight>
-                <Animation>TRAMTCSCOMcomb_p_p_k</Animation>
+                <Animation>TRAMTCSCOMcomb_p_k</Animation>
             </TRACAnimation>
             <TRACAnimation>
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMcomb_p_p_p</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_p_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_k_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_p_k_p</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k_p</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k_k</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k_p_p</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMTCSCOMcomb_k_p_k</Animation>
             </TRACAnimation>
             <TRACAnimation>
                 <Weight>100</Weight>
@@ -73,14 +107,10 @@
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMcomb_k_k_k</Animation>
             </TRACAnimation>
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMcomb_p_k</Animation>
-            </TRACAnimation>
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMcomb_p_k_k</Animation>
-            </TRACAnimation>
+
+
+            <!--END BASIC COMBOS-->
+
             <TRACAnimation>
                 <Weight>100</Weight>
                 <Animation>TRAMTCSCOMpunch_fw</Animation>
@@ -98,23 +128,23 @@
                 <Animation>TRAMTCSCOMbk_fw_kick</Animation>
             </TRACAnimation>
 
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMrt_fw_kick</Animation>
-            </TRACAnimation>
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMlt_fw_kick</Animation>
-            </TRACAnimation>
+<!--            <TRACAnimation>-->
+<!--                <Weight>100</Weight>-->
+<!--                <Animation>TRAMTCSCOMrt_fw_kick</Animation>-->
+<!--            </TRACAnimation>-->
+<!--            <TRACAnimation>-->
+<!--                <Weight>100</Weight>-->
+<!--                <Animation>TRAMTCSCOMlt_fw_kick</Animation>-->
+<!--            </TRACAnimation>-->
 
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMrt_fw_punch</Animation>
-            </TRACAnimation>
-            <TRACAnimation>
-                <Weight>100</Weight>
-                <Animation>TRAMTCSCOMlt_fw_punch</Animation>
-            </TRACAnimation>
+<!--            <TRACAnimation>-->
+<!--                <Weight>100</Weight>-->
+<!--                <Animation>TRAMTCSCOMrt_fw_punch</Animation>-->
+<!--            </TRACAnimation>-->
+<!--            <TRACAnimation>-->
+<!--                <Weight>100</Weight>-->
+<!--                <Animation>TRAMTCSCOMlt_fw_punch</Animation>-->
+<!--            </TRACAnimation>-->
 
 
         </Animations>
