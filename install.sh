@@ -5,11 +5,12 @@ DAT_FILE_NAME="level0_alpha.dat"
 OUTPUT="TCTFagent\.oni"
 rm TCTFagent/.oni/*
 
-$ONISPLIT -create $OUTPUT 'TCTFagent\*'
-$ONISPLIT -create $OUTPUT 'TCTFagent\images\*.xml'
-$ONISPLIT -create $OUTPUT 'TCTFagent\animations\*.xml'
-$ONISPLIT -create $OUTPUT 'TCTFagent\particles\*.xml'
+$ONISPLIT -create $OUTPUT 'TCTFagent/images/*.xml'
+$ONISPLIT -create $OUTPUT 'TCTFagent/animations/noblender/*.xml'
+$ONISPLIT -create $OUTPUT -blender 'TCTFagent/animations/blender/*.xml'
+$ONISPLIT -create $OUTPUT 'TCTFagent/particles/*.xml'
 
-$ONISPLIT -import:nosep 'TCTFagent\.oni' "$ONI_GDF/$DAT_FILE_NAME"
-
+$ONISPLIT -import:nosep 'TCTFagent/.oni' "$ONI_GDF/$DAT_FILE_NAME"
+#$SHELL
 (cd "$ONI_DIR" && ./Oni.exe) &
+
