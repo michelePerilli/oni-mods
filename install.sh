@@ -2,9 +2,10 @@ ONI_DIR="D:/Program Files (x86)/Oni/AE"
 ONI_GDF="$ONI_DIR/GameDataFolder"
 ONISPLIT=".tools/OniSplit.exe"
 DAT_FILE_NAME="level0_alpha.dat"
-OUTPUT="TCTFagent\.oni"
+OUTPUT="TCTFagent/.oni"
 rm TCTFagent/.oni/*
 
+$ONISPLIT -create $OUTPUT 'TCTFagent/*'
 $ONISPLIT -create $OUTPUT 'TCTFagent/images/*.xml'
 $ONISPLIT -create $OUTPUT 'TCTFagent/animations/noblender/*.xml'
 $ONISPLIT -create $OUTPUT -blender 'TCTFagent/animations/blender/*.xml'

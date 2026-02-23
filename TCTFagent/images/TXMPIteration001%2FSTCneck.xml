@@ -2,7 +2,7 @@
 <Oni>
     <Texture>
         <Flags>HasMipMaps</Flags>
-        <Format>BGRA8888</Format>
+        <Format>RGBA</Format>
         <EnvMap>TXMPstrikerarmor</EnvMap>
         <Image>TXMPIteration001%2FSTCneck.tga</Image>
     </Texture>
