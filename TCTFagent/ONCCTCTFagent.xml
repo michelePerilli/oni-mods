@@ -309,8 +309,8 @@
         <IdleAnimation2Timer>30000</IdleAnimation2Timer>
         <Health>70</Health>
         <FeetBones>LeftFoot RightFoot</FeetBones>
-        <MinBodySizeFactor>0.95</MinBodySizeFactor>
-        <MaxBodySizeFactor>1.05</MaxBodySizeFactor>
+        <MinBodySizeFactor>0.7</MinBodySizeFactor>
+        <MaxBodySizeFactor>1.0</MaxBodySizeFactor>
         <DamageFactors>
             <Float>0</Float>
             <Float>0</Float>
