@@ -717,8 +717,8 @@
                 <HitPoints>11</HitPoints>
                 <HitType>KnockdownHead</HitType>
                 <HitLength>30</HitLength>
-                <StunLength>15</StunLength>
-                <StaggerLength>0</StaggerLength>
+                <StunLength>20</StunLength>
+                <StaggerLength>15</StaggerLength>
                 <Extents>
                     <Extent>
                         <Angle>2.307164</Angle>

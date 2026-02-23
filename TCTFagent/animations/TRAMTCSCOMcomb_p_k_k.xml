@@ -16,8 +16,8 @@
             <End>65535</End>
         </Atomic>
         <Invulnerable>
-            <Start>0</Start>
-            <End>0</End>
+            <Start>1</Start>
+            <End>5</End>
         </Invulnerable>
         <Overlay>
             <UsedBones />
@@ -700,8 +700,8 @@
                 <HitPoints>10</HitPoints>
                 <HitType>KnockdownHead</HitType>
                 <HitLength>5</HitLength>
-                <StunLength>8</StunLength>
-                <StaggerLength>0</StaggerLength>
+                <StunLength>25</StunLength>
+                <StaggerLength>25</StaggerLength>
                 <Extents>
                     <Extent>
                         <Angle>354.314453</Angle>

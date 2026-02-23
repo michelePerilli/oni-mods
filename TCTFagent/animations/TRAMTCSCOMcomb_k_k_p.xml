@@ -16,8 +16,8 @@
             <End>65535</End>
         </Atomic>
         <Invulnerable>
-            <Start>0</Start>
-            <End>0</End>
+            <Start>1</Start>
+            <End>5</End>
         </Invulnerable>
         <Overlay>
             <UsedBones />
