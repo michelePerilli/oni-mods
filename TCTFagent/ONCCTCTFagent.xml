@@ -300,7 +300,7 @@
             </ONCCImpact>
         </Impacts>
         <DeathParticle></DeathParticle>
-        <BodySet>TRBSTCTFswat_body_high</BodySet>
+        <BodySet>TRBSTCTFsuper_agent_body</BodySet>
         <BodyTextures>TRMATCTFagent</BodyTextures>
         <BodyMaterials>#7</BodyMaterials>
         <BodyImpacts>#8</BodyImpacts>
