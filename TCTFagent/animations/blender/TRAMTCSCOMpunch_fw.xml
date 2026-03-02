@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Oni>
+    <Animation>
+        <Import Path="TCSCOMpunch_fw.dae" />
+        <Lookup>
+            <Type>PunchForward</Type>
+            <AimingType>PunchForward</AimingType>
+            <FromState>Standing</FromState>
+            <ToState>Standing</ToState>
+            <Varient>Combat</Varient>
+            <FirstLevel>0</FirstLevel>
+            <Shortcuts>
+                <Shortcut>
+                    <FromState>RunStart</FromState>
+                    <Length>6</Length>
+                    <ReplaceAtomic>yes</ReplaceAtomic>
+                </Shortcut>
+            </Shortcuts>
+        </Lookup>
+        <Flags>Attack Atomic DontAim</Flags>
+        <Atomic>
+            <Start>0</Start>
+            <End>65535</End>
+        </Atomic>
+        <Invulnerable>
+            <Start>0</Start>
+            <End>0</End>
+        </Invulnerable>
+        <Overlay>
+            <UsedBones />
+            <ReplacedBones />
+        </Overlay>
+        <DirectAnimations>
+            <Link>TRAMTCSCOMcomb_pf_pf</Link>
+            <Link/>
+        </DirectAnimations>
+        <Pause>
+            <Hard>0</Hard>
+            <Soft>12</Soft>
+        </Pause>
+        <Interpolation>
+            <End>12</End>
+            <Max>65535</Max>
+        </Interpolation>
+        <FinalRotation>0</FinalRotation>
+        <Direction>Forward</Direction>
+        <Vocalization>65535</Vocalization>
+        <ActionFrame>65535</ActionFrame>
+        <Impact>swtflash1</Impact>
+        <Particles>
+            <Particle>
+                <Start>1</Start>
+                <End>40</End>
+                <Bone>LeftFist</Bone>
+                <Name>contrail</Name>
+            </Particle>
+            <Particle>
+                <Start>1</Start>
+                <End>40</End>
+                <Bone>LeftFist</Bone>
+                <Name>glow</Name>
+            </Particle>
+        </Particles>
+        <MotionBlur />
+        <Footsteps />
+        <Sounds />
+        <ThrowSource />
+        <SelfDamage />
+        <Attacks>
+            <Attack>
+                <Start>25</Start>
+                <End>31</End>
+                <Bones>LeftWrist LeftFist</Bones>
+                <Flags />
+                <Knockback>2</Knockback>
+                <HitPoints>5</HitPoints>
+                <HitType>HitHead</HitType>
+                <HitLength>2</HitLength>
+                <StunLength>8</StunLength>
+                <StaggerLength>0</StaggerLength>
+            </Attack>
+        </Attacks>
+    </Animation>
+</Oni>
