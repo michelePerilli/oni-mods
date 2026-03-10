@@ -6,6 +6,7 @@ OUTPUT="TCTFagent/.oni"
 rm TCTFagent/.oni/*
 
 $ONISPLIT -create:trbs $OUTPUT -blender 'TCTFagent/model/*.dae'
+
 $ONISPLIT -create $OUTPUT 'TCTFagent/*'
 $ONISPLIT -create $OUTPUT 'TCTFagent/images/*.xml'
 $ONISPLIT -create $OUTPUT 'TCTFagent/animations/noblender/*.xml'
