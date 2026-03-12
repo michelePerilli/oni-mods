@@ -4,7 +4,7 @@
         <AirConstants>
             <FallGravity>0.55</FallGravity>
             <JumpGravity>0.05</JumpGravity>
-            <JumpStartVelocity>1</JumpStartVelocity>
+            <JumpStartVelocity>1.1</JumpStartVelocity>
             <MaxVelocity>-4</MaxVelocity>
             <JetpackAcceleration>0.01</JetpackAcceleration>
             <FramesFallGravity>7</FramesFallGravity>
@@ -24,7 +24,7 @@
         </ShadowConstants>
         <JumpConstants>
             <JumpDistance>25</JumpDistance>
-            <JumpHeight>16</JumpHeight>
+            <JumpHeight>22</JumpHeight>
             <JumpDistanceSquares>6</JumpDistanceSquares>
         </JumpConstants>
         <CoverConstants>
@@ -307,7 +307,7 @@
         <FightModeTimer>300</FightModeTimer>
         <IdleAnimation1Timer>30000</IdleAnimation1Timer>
         <IdleAnimation2Timer>30000</IdleAnimation2Timer>
-        <Health>70</Health>
+        <Health>100</Health>
         <FeetBones>LeftFoot RightFoot</FeetBones>
         <MinBodySizeFactor>0.9</MinBodySizeFactor>
         <MaxBodySizeFactor>1.0</MaxBodySizeFactor>
@@ -386,16 +386,6 @@
                 <Name>super_head</Name>
                 <Type>tctfsuper_e01</Type>
                 <BodyPart>Chest</BodyPart>
-            </ONCPParticle>
-            <ONCPParticle>
-                <Name>barabwave</Name>
-                <Type>barwave_e01</Type>
-                <BodyPart>None</BodyPart>
-            </ONCPParticle>
-            <ONCPParticle>
-                <Name>murowave</Name>
-                <Type>murowave_e01</Type>
-                <BodyPart>None</BodyPart>
             </ONCPParticle>
         </Particles>
     </ONCP>

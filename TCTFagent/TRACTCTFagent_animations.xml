@@ -148,6 +148,19 @@
                 <Animation>TRAMTCSCOMbk_fw_kick</Animation>
             </TRACAnimation>
 
+
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMSTRCOMkick_low</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMNINSPRrun_rt</Animation>
+            </TRACAnimation>
+            <TRACAnimation>
+                <Weight>100</Weight>
+                <Animation>TRAMNINSPRrun_lt</Animation>
+            </TRACAnimation>
 <!--            <TRACAnimation>-->
 <!--                <Weight>100</Weight>-->
 <!--                <Animation>TRAMTCSCOMrt_fw_kick</Animation>-->
